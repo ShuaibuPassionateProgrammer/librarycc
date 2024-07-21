@@ -9,4 +9,6 @@ include "includes/header.php";
     </div>
 </div>
 
-<div class="container mt-4"></div>
+<div class="container mt-4">
+    <div class="row justify-content-center"></div>
+</div>
