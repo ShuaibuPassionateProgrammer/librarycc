@@ -4,5 +4,7 @@ include "includes/header.php";
 ?>
 
 <div class="container mt-5">
-    <div class="row justify-content-center"></div>
+    <div class="row justify-content-center">
+        <img src="images/img_4044.jpg" alt="" class="logo p-2" style="box-shadow: 0 1px 5px rgba(2,2,2,.2); border-radius: 200px">
+    </div>
 </div>
