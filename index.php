@@ -27,7 +27,9 @@
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-md-4">
-                <a href="member/"></a>
+                <a href="member/">
+                    <div class="card rounded"></div>
+                </a>
             </div>
         </div>
     </div>
