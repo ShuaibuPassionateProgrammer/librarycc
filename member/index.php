@@ -21,7 +21,9 @@ include "includes/header.php";
     <div class="row justify-content-center">
         <div class="col-md-5">
             <form action="member-login-code.php" method="post">
-                <div class="form-group"></div>
+                <div class="form-group">
+                    <label for="username">Username</label><br>
+                </div>
             </form>
         </div>
     </div>
