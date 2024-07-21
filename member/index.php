@@ -25,6 +25,7 @@ include "includes/header.php";
                     <label for="username">Username</label><br>
                     <input type="text" name="username" id="username" placeholder="Member Username" class="form-control rounded">
                 </div>
+                <div class="form-group"></div>
             </form>
         </div>
     </div>
