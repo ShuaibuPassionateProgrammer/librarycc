@@ -20,7 +20,9 @@ include "includes/header.php";
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-5">
-            <form action="member-login-code.php" method="post"></form>
+            <form action="member-login-code.php" method="post">
+                <div class="form-group"></div>
+            </form>
         </div>
     </div>
 </div>
