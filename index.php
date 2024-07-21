@@ -41,7 +41,9 @@
 
             <div class="col-md-4">
                 <a href="librarian/">
-                    <div class="card rounded"></div>
+                    <div class="card rounded">
+                        <div class="card-body text-center"></div>
+                    </div>
                 </a>
             </div>
         </div>
