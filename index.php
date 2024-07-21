@@ -40,7 +40,9 @@
             </div>
 
             <div class="col-md-4">
-                <a href="librarian/"></a>
+                <a href="librarian/">
+                    <div class="card rounded"></div>
+                </a>
             </div>
         </div>
     </div>
