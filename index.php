@@ -42,7 +42,9 @@
             <div class="col-md-4">
                 <a href="librarian/">
                     <div class="card rounded">
-                        <div class="card-body text-center"></div>
+                        <div class="card-body text-center">
+                            <img src="images/img_4045.png" alt="" class="logo p-2" style="box-shadow: 0 1px 5px rgba(2,2,2,.2); border-radius: 200px">
+                        </div>
                     </div>
                 </a>
             </div>
