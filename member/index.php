@@ -34,7 +34,7 @@ include "includes/header.php";
                 </div>
                 <div class="form-group text-center">
                     <p>Not yet a member?<a href="register.php">Register</a></p>
-                    <p><a href="index.php">Back to Homepage</a></p>
+                    <p><a href="../">Back to Homepage</a></p>
                 </div>
             </form>
         </div>
