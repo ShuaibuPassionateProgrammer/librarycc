@@ -32,6 +32,7 @@ include "includes/header.php";
                 <div class="form-group text-right">
                     <input type="submit" value="Log In" name="login" class="btn btn-outline-primary rounded" style="width: 20%">
                 </div>
+                <div class="form-group text-center"></div>
             </form>
         </div>
     </div>
