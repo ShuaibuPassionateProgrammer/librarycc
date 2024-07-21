@@ -23,6 +23,7 @@ include "includes/header.php";
             <form action="member-login-code.php" method="post">
                 <div class="form-group">
                     <label for="username">Username</label><br>
+                    <input type="text" name="username" id="username" placeholder="Member Username" class="form-control rounded">
                 </div>
             </form>
         </div>
