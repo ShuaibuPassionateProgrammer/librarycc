@@ -39,7 +39,9 @@
                 </a>
             </div>
 
-            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <a href="librarian/"></a>
+            </div>
         </div>
     </div>
 </body>
