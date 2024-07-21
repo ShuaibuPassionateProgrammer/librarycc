@@ -29,7 +29,9 @@ include "includes/header.php";
                     <label for="password">Password</label><br>
                     <input type="password" name="password" id="password" placeholder="Member Password" class="form-control rounded">
                 </div>
-                <div class="form-group text-right"></div>
+                <div class="form-group text-right">
+                    <input type="submit" value="Log In" name="login" class="btn btn-outline-primary rounded" style="width: 20%">
+                </div>
             </form>
         </div>
     </div>
