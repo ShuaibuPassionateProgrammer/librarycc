@@ -27,6 +27,7 @@ include "includes/header.php";
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password" placeholder="Member Password" class="form-control rounded">
                 </div>
             </form>
         </div>
