@@ -278,7 +278,29 @@ include "../config/db_con.php";
 
                         $sn = 1;
                         if(mysqli_num_rows($query_run) > 0) {
-                            while($row = mysqli_fetch_assoc($query_run)) {}
+                            while($row = mysqli_fetch_assoc($query_run)) {
+                                $main_author = $row['main_author'];
+                                $other_author = $row['other_author'];
+                                $editors = $row['editors'];
+                                $title = $row['title'];
+                                $edition = $row['edition'];
+                                $tmaterial = $row['tmaterial'];
+                                $publication = $row['publication'];
+                                $publisher = $row['publisher'];
+                                $pages = $row['pages'];
+                                $mainpages = $row['mainpages'];
+                                $illustration = $row['illustration'];
+                                $length = $row['length'];
+                                $note = $row['note'];
+                                $series = $row['series'];
+                                $isbn = $row['isbn'];
+                                $hbk = $row['hbk'];
+                                $price = $row['price'];
+                                $callno = $row['callno'];
+                                $accessno = $row['accessno'];
+                                $subject_entry = $row['subject_entry'];
+                                $cataloger = $row['cataloger'];
+                            }
                         }
                         ?>
                     </tbody>
