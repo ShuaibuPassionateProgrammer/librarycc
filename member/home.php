@@ -57,6 +57,7 @@ include "../config/db_con.php";
     if(!isset($_SESSION['auth']))
     {
         $_SESSION['response'] = "Access denied! Login to access the member dashboard.";
+        $_SESSION['res_type'] = "warning";
     }
     ?>
 </body>
