@@ -25,6 +25,7 @@ include "../config/db_con.php";
             <a href="index.php" class="navbar-brand">
                 <img src="images/library_image.png" width="50" height="50" alt="Library Image Logo">
             </a>
+            <h3 class="text-light">Library Cat & Class</h3>
         </nav>
     </div>
 </body>
