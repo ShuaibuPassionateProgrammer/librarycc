@@ -342,5 +342,3 @@ include "../config/db_con.php";
             </div>
         </div>
     </div>
-</body>
-</html>
