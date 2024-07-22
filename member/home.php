@@ -34,7 +34,9 @@ include "../config/db_con.php";
             else
             {*/
             ?>
-            <div class="collapse navbar-collapse"></di>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto"></ul>
+            </di>
         </nav>
     </div>
 </body>
