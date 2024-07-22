@@ -114,7 +114,9 @@ include "../config/db_con.php";
                     $search_query_run = mysqli_query($conn, $search_query);
 
                     if(mysqli_num_rows($search_query_run) > 0)
-                    {}
+                    {
+                        
+                    }
                 }
                 ?>
             </div>
