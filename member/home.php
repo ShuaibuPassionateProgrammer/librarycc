@@ -157,7 +157,9 @@ include "../config/db_con.php";
                                             $query_run = mysqli_query($conn, $query);
 
                                             $sn = 1;
-                                            if(mysqli_num_rows($query) > 0) {}
+                                            if(mysqli_num_rows($query_run) > 0) {
+                                                while($row = mysqli_fetch_assoc($query_run)) {}
+                                            }
                                             ?>
                                         </tbody>
                                     </table>
