@@ -88,7 +88,9 @@ include "../config/db_con.php";
                         <form method="post">
                             <table>
                                 <tbody>
-                                    <td></td>
+                                    <td>
+                                        <input type="text" name="accession_no" class="form-control w-100" placeholder="Enter the Accession Number to Locate a Book">
+                                    </td>
                                 </tbody>
                             </table>
                         </form>
