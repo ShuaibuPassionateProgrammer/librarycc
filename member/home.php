@@ -1,4 +1,6 @@
-<?php?>
+<?php
+include "../config/db_con.php";
+?>
 
 <!DOCTYPE html>
 <html lang="en">
