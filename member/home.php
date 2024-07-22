@@ -52,5 +52,9 @@ include "../config/db_con.php";
             </di>
         </nav>
     </div>
+
+    <?php
+    if(!isset($_SESSION['auth']))
+    {
 </body>
 </html>
