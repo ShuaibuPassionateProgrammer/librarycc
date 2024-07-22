@@ -151,6 +151,7 @@ include "../config/db_con.php";
                                                 <th>Catalogued by</th>
                                             </tr>
                                         </thead>
+                                        <tbody></tbody>
                                     </table>
                                 </div>
                             </div>
