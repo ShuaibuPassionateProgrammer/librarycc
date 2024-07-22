@@ -230,30 +230,12 @@ include "../config/db_con.php";
                     {
                         echo "Record not found";
                     }
-
-                    /*$search_query = "SELECT accessno FROM book WHERE accessno='$accession_no'";
-                    $search_query_run = mysqli_query($conn, $search_query);
-
-                    if($search_query_run)
-                    {
-                        if(mysqli_num_rows($search_query_run) > 0)
-                        {
-                            while($row = mysqli_fetch_assoc($search_query_run))
-                            {
-                                ?>
-                                <p class="text-success">Accession Number is available</p>
-                                <?php
-                            }
-                        }
-                        else
-                        {
-                            echo "<span class='text-danger'>Invalid Access code</span>";
-                        }
-                    }*/
                 }
                 ?>
             </div>
         </div>
     </div>
+
+    <div class="container-fluid p-2"></div>
 </body>
 </html>
