@@ -34,6 +34,7 @@ include "../config/db_con.php";
             else
             {*/
             ?>
+            <div class="collapse navbar-collapse"></di>
         </nav>
     </div>
 </body>
