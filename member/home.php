@@ -181,7 +181,30 @@ include "../config/db_con.php";
                                                     $subject_entry = $row['subject_entry'];
                                                     $cataloger = $row['cataloger'];
                                                     ?>
-                                                    <tr></tr>
+                                                    <tr>
+                                                        <td><?php echo $sn++; ?></td>
+                                                        <td><?php echo $main_author; ?></td>
+                                                        <td><?php echo $other_author; ?></td>
+                                                        <td><?php echo $editors; ?></td>
+                                                        <td><?php echo $title; ?></td>
+                                                        <td><?php echo $edition; ?></td>
+                                                        <td><?php echo $tmaterial; ?></td>
+                                                        <td><?php echo $publication; ?></td>
+                                                        <td><?php echo $publisher; ?></td>
+                                                        <td><?php echo $pages; ?></td>
+                                                        <td><?php echo $mainpages; ?></td>
+                                                        <td><?php echo $illustration; ?></td>
+                                                        <td><?php echo $length; ?></td>
+                                                        <td><?php echo $note; ?></td>
+                                                        <td><?php echo $series; ?></td>
+                                                        <td><?php echo $isbn; ?></td>
+                                                        <td><?php echo $hbk; ?></td>
+                                                        <td><?php echo $price; ?></td>
+                                                        <td><?php echo $callno; ?></td>
+                                                        <td><?php echo $accessno; ?></td>
+                                                        <td><?php echo $subject_entry; ?></td>
+                                                        <td><?php echo $cataloger; ?></td>
+                                                    </tr>
                                                     <?php
                                                 }
                                             }
