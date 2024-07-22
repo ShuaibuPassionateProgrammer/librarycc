@@ -26,6 +26,14 @@ include "../config/db_con.php";
                 <img src="images/library_image.png" width="50" height="50" alt="Library Image Logo">
             </a>
             <h3 class="text-light">Library Cat & Class</h3>
+            <?php
+            /*if(isset($_SESSION['auth']))
+            {
+                echo $_SESSION['auth_librarian']['librarian_username'];
+            }
+            else
+            {*/
+            ?>
         </nav>
     </div>
 </body>
