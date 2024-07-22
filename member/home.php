@@ -84,6 +84,7 @@ include "../config/db_con.php";
                     <div class="card-header text-center">
                         <h3>Book Classifications</h3>
                     </div>
+                    <div class="card-body text-right"></div>
                 </div>
             </div>
         </div>
