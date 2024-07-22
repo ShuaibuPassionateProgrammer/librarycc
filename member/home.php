@@ -180,6 +180,7 @@ include "../config/db_con.php";
                                                     $accessno = $row['accessno'];
                                                     $subject_entry = $row['subject_entry'];
                                                     $cataloger = $row['cataloger'];
+                                                    ?><?php
                                                 }
                                             }
                                             ?>
