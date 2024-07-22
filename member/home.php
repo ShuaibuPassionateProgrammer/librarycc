@@ -61,6 +61,10 @@ include "../config/db_con.php";
         header("location: ../member");
         exit(0);
     }
+    else {
+        if(isset($_SESSION['auth']['auth_member']))
+        {}
+    }
     ?>
 </body>
 </html>
