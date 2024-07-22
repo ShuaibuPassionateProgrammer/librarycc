@@ -87,7 +87,9 @@ include "../config/db_con.php";
                     <div class="card-body text-right">
                         <form method="post">
                             <table>
-                                <tbody></tbody>
+                                <tbody>
+                                    <td></td>
+                                </tbody>
                             </table>
                         </form>
                     </div>
