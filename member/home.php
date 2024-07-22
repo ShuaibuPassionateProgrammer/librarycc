@@ -115,7 +115,9 @@ include "../config/db_con.php";
 
                     if(mysqli_num_rows($search_query_run) > 0)
                     {
-                        
+                        ?>
+                        <div class="container p-2"></div>
+                        <?php
                     }
                 }
                 ?>
