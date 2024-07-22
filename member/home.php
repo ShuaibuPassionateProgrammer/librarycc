@@ -252,9 +252,6 @@ include "../config/db_con.php";
                     }*/
                 }
                 ?>
-
-                <!-- <table class="table table-bordered table-responsive">
-                </table> -->
             </div>
         </div>
     </div>
