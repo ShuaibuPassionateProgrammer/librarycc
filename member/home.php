@@ -58,6 +58,7 @@ include "../config/db_con.php";
     {
         $_SESSION['response'] = "Access denied! Login to access the member dashboard.";
         $_SESSION['res_type'] = "warning";
+        header("location: ../member");
     }
     ?>
 </body>
