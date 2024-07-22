@@ -274,9 +274,10 @@ include "../config/db_con.php";
                     <tbody>
                         <?php
                         $query = "SELECT * FROM book";
-                        $query_run = mysqli_query($conn, $query);?>
+                        $query_run = mysqli_query($conn, $query);
 
                         $sn = 1;
+                        ?>
                     </tbody>
                 </table>
             </div>
