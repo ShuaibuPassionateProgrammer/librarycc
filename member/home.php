@@ -271,7 +271,11 @@ include "../config/db_con.php";
                             <th>Catalogued by</th>
                         </tr>
                     </thead>
-                    <tbody></tbody>
+                    <tbody>
+                        <?php
+                        $query = "SELECT * FROM book";
+                        $query_run = mysqli_query($conn, $query);?>
+                    </tbody>
                 </table>
             </div>
         </div>
