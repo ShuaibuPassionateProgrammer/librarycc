@@ -91,7 +91,9 @@ include "../config/db_con.php";
                                     <td>
                                         <input type="text" name="accession_no" class="form-control w-100" placeholder="Enter the Accession Number to Locate a Book">
                                     </td>
-                                    <td></td>
+                                    <td>
+                                        <input type="submit" name="btn_search" value="Search" class="btn btn-outline-success ">
+                                    </td>
                                 </tbody>
                             </table>
                         </form>
