@@ -240,7 +240,9 @@ include "../config/db_con.php";
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <table class="table-bordered table-responsive">
-                    <tr></tr>
+                    <tr>
+                        <th colspan="22" class="text-center"><h3>List of Available Books</h3></th>
+                    </tr>
                 </table>
             </div>
         </div>
