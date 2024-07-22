@@ -63,7 +63,9 @@ include "../config/db_con.php";
     }
     else {
         if(isset($_SESSION['auth']['auth_member']))
-        {}
+        {
+            echo "Hey! ".$_SESSION['auth_member']['member_username']." You are welcome to Librarian Dashboard";
+        }
     }
     ?>
 </body>
