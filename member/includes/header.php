@@ -22,5 +22,3 @@
             <h2 class="text-light">Library Cat & Class</h2>
         </nav>
     </div>
-</body>
-</html>
