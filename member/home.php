@@ -108,7 +108,9 @@ include "../config/db_con.php";
             <div class="col-md-12">
                 <?php
                 if(isset($_POST['btn_search']))
-                {}
+                {
+                    $accession_no = mysqli_real_escape_string($conn, $_POST['accession_no']);
+                }
                 ?>
             </div>
         </div>
