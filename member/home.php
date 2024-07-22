@@ -126,6 +126,30 @@ include "../config/db_con.php";
                                                     <h3>List of Available Books</h3>
                                                 </th>
                                             </tr>
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Name of Main Author</th>
+                                                <th>Other Authors</th>
+                                                <th>Editor(s)</th>
+                                                <th>Title</th>
+                                                <th>Edition</th>
+                                                <th>Type of Material</th>
+                                                <th>Place of Publication</th>
+                                                <th>Publisher</th>
+                                                <th>No. of Preliminary Pages</th>
+                                                <th>No. of Main Pages</th>
+                                                <th>Illustrations</th>
+                                                <th>Length</th>
+                                                <th>Note</th>
+                                                <th>Series</th>
+                                                <th>ISBN/ISSN</th>
+                                                <th>Hbk/Pbk</th>
+                                                <th>Price</th>
+                                                <th>Call No</th>
+                                                <th>Accession No</th>
+                                                <th>Subject Added Entries</th>
+                                                <th>Catalogued by</th>
+                                            </tr>
                                         </thead>
                                     </table>
                                 </div>
