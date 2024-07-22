@@ -65,6 +65,7 @@ include "../config/db_con.php";
         if(isset($_SESSION['auth']['auth_member']))
         {
             echo "Hey! ".$_SESSION['auth_member']['member_username']." You are welcome to Librarian Dashboard";
+            unset($_SESSION['auth_member']['member_username']);
         }
     }
     ?>
