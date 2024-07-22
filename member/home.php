@@ -44,6 +44,7 @@ include "../config/db_con.php";
                 </ul>
                 <div class="dropdown-menu">
                     <a href="#" class="dropdown-item">Profile</a>
+                    <a href="#" class="dropdown-item">Settings</a>
                 </div>
             </di>
         </nav>
