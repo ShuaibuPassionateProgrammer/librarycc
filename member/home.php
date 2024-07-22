@@ -119,7 +119,13 @@ include "../config/db_con.php";
                         <div class="container p-2">
                             <div class="row justify-content-center">
                                 <div class="col-md-12">
-                                    <table class="table table-bordered table-responsive"></table>
+                                    <table class="table table-bordered table-responsive">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="22" class="text-center"><h3>List of Available Books</h3></th>
+                                            </tr>
+                                        </thead>
+                                    </table>
                                 </div>
                             </div>
                         </div>
