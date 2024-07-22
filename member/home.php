@@ -110,6 +110,7 @@ include "../config/db_con.php";
                 if(isset($_POST['btn_search']))
                 {
                     $accession_no = mysqli_real_escape_string($conn, $_POST['accession_no']);
+                    $search_query = "SELECT accessno FROM book WHERE accessno LIKE '%$accession_no%'";
                 }
                 ?>
             </div>
