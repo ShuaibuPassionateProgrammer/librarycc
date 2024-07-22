@@ -42,6 +42,7 @@ include "../config/db_con.php";
                         </form>
                     </li>
                 </ul>
+                <div class="dropdown-menu"></div>
             </di>
         </nav>
     </div>
