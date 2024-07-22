@@ -242,7 +242,9 @@ include "../config/db_con.php";
                 <table class="table-bordered table-responsive">
                     <thead>
                         <tr>
-                            <th colspan="22" class="text-center"><h3>List of Available Books</h3></th>
+                            <th colspan="22" class="text-center">
+                                <h3>List of Available Books</h3>
+                            </th>
                         </tr>
                         <tr>
                             <th>ID</th>
