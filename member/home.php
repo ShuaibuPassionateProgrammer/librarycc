@@ -69,5 +69,6 @@ include "../config/db_con.php";
         }
     }
     ?>
+    <div class="container-fluid p-2"></div>
 </body>
 </html>
