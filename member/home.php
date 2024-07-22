@@ -236,6 +236,8 @@ include "../config/db_con.php";
         </div>
     </div>
 
-    <div class="container-fluid p-2"></div>
+    <div class="container-fluid p-2">
+        <div class="row justify-content-center"></div>
+    </div>
 </body>
 </html>
