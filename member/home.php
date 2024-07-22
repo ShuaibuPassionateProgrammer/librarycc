@@ -217,6 +217,14 @@ include "../config/db_con.php";
                         <?php
                     }
                 }
+                else
+                {
+                    ?>
+                    <tr>
+                        <td colspan="22"><span class="text-danger">Books not yet Added</span></td>
+                    </tr>
+                    <?php
+                }
                 ?>
             </div>
         </div>
