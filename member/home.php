@@ -58,5 +58,6 @@ include "../config/db_con.php";
     {
         $_SESSION['response'] = "Access denied! Login to access the member dashboard.";
     }
+    ?>
 </body>
 </html>
