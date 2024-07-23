@@ -49,7 +49,9 @@ include "includes/header.php";
                             </table>
                         </div>
 
-                        <div class="col-md-6"></div>
+                        <div class="col-md-6">
+                            <table class="table-borderless"></table>
+                        </div>
                     </div>
                 </fieldset>
             </form>
