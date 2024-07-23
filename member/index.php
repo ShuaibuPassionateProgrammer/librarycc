@@ -13,7 +13,7 @@ iclude "includes/navbar.php";
 <div class="container mt-4">
     <div class="row justify-content-center">
         <div class="col-md-6">
-            <?php include("message.php"); ?>
+            <?php //include("message.php"); ?>
         </div>
     </div>
 </div>
