@@ -30,7 +30,7 @@ include "includes/header.php";
                 <fieldset class="border p-2">
                     <legend class="float-none w-auto">Registering a member</legend>
 
-                    .row    
+                    <div class="row"></div>
                 </fieldset>
             </form>
         </div>
