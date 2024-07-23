@@ -40,6 +40,7 @@ include "includes/header.php";
                                     </tr>
                                     <tr>
                                         <td>Last Name</td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>
