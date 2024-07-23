@@ -26,7 +26,9 @@ include "includes/header.php";
 <div class="container p-2">
     <div class="row justify-content-center">
         <div class="col-md-12">
-            <form action="member-register-code.php" method="post"></form>
+            <form action="member-register-code.php" method="post">
+                <fieldset class="border p-2"></fieldset>
+            </form>
         </div>
     </div>
 </div>
