@@ -66,6 +66,7 @@ include "includes/header.php";
                                 <tr>
                                     <td colspan="2" class="text-right">
                                         <a href="../member" class="btn btn-outline-secondary">Back</a>
+                                        <input type="submit" name="register" value="Register" class="btn btn-outline-primary">
                                     </td>
                                 </tr>
                             </table>
