@@ -53,7 +53,7 @@ include "includes/header.php";
                             <table class="table-borderless">
                                 <tr>
                                     <td>Email Address</td>
-                                    <td></td>
+                                    <td><input type="text" name="email" class="form-control"></td>
                                 </tr>
                             </table>
                         </div>
