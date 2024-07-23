@@ -42,7 +42,9 @@ include "includes/header.php";
                                         <td>Last Name</td>
                                         <td><input type="text" name="lastname" class="form-control"></td>
                                     </tr>
-                                    <tr></tr>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
