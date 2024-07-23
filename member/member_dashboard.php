@@ -9,6 +9,9 @@
         .header {
             background-color: #343a40;
         }
+        .rounded {
+            border-radius: 20px !important;
+        }
     </style>
 </head>
 <body>
