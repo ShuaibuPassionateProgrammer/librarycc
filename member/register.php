@@ -15,7 +15,9 @@ include "includes/header.php";
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header text-center"></div>
+                <div class="card-header text-center">
+                    <h3>Member Registration - Form</h3>
+                </div>
             </div>
         </div>
     </div>
