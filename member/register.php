@@ -57,6 +57,7 @@ include "includes/header.php";
                                 </tr>
                                 <tr>
                                     <td>Password</td>
+                                    <td></td>
                                 </tr>
                             </table>
                         </div>
