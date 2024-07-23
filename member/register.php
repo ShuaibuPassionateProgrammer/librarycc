@@ -33,7 +33,9 @@ include "includes/header.php";
                     <div class="row">
                         <div class="col-md-6">
                             <table class="table table-borderless">
-                                <tbody></tbody>
+                                <tbody>
+                                    <tr></tr>
+                                </tbody>
                             </table>
                         </div>
                     </div>
