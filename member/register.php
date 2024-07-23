@@ -29,6 +29,8 @@ include "includes/header.php";
             <form action="member-register-code.php" method="post">
                 <fieldset class="border p-2">
                     <legend class="float-none w-auto">Registering a member</legend>
+
+                    .row    
                 </fieldset>
             </form>
         </div>
