@@ -40,7 +40,7 @@ include "includes/header.php";
                                     </tr>
                                     <tr>
                                         <td>Last Name</td>
-                                        <td></td>
+                                        <td><input type="text" name="lastname" class="form-control"></td>
                                     </tr>
                                 </tbody>
                             </table>
