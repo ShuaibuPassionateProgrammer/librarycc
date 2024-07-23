@@ -1,6 +1,7 @@
 <?php
 session_start();
 include "includes/header.php";
+iclude "includes/navbar.php";
 ?>
 
 <div class="container mt-5">
