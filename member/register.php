@@ -48,6 +48,8 @@ include "includes/header.php";
                                 </tbody>
                             </table>
                         </div>
+
+                        <div class="col-md-6"></div>
                     </div>
                 </fieldset>
             </form>
