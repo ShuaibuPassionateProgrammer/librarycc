@@ -50,7 +50,11 @@ include "includes/header.php";
                         </div>
 
                         <div class="col-md-6">
-                            <table class="table-borderless"></table>
+                            <table class="table-borderless">
+                                <tr>
+                                    
+                                </tr>
+                            </table>
                         </div>
                     </div>
                 </fieldset>
