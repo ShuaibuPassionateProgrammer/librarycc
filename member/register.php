@@ -57,7 +57,7 @@ include "includes/header.php";
                                 </tr>
                                 <tr>
                                     <td>Password</td>
-                                    <td></td>
+                                    <td><input type="password" name="password" class="form-control"></td>
                                 </tr>
                             </table>
                         </div>
