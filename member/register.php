@@ -53,6 +53,7 @@ include "includes/header.php";
                             <table class="table-borderless">
                                 <tr>
                                     <td>Email Address</td>
+                                    <td></td>
                                 </tr>
                             </table>
                         </div>
