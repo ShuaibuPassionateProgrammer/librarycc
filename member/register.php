@@ -38,7 +38,9 @@ include "includes/header.php";
                                         <td>First Name</td>
                                         <td><input type="text" name="firstname" class="form-control">
                                     </tr>
-                                    <tr></tr>
+                                    <tr>
+                                        <td>Last Name</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
