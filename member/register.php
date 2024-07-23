@@ -63,6 +63,7 @@ include "includes/header.php";
                                     <td>Confirm Password</td>
                                     <td><input type="password" name="cpassword" class="form-control"></td>
                                 </tr>
+                                <tr></tr>
                             </table>
                         </div>
                     </div>
