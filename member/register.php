@@ -55,7 +55,9 @@ include "includes/header.php";
                                     <td>Email Address</td>
                                     <td><input type="text" name="email" class="form-control"></td>
                                 </tr>
-                                <tr></tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
                             </table>
                         </div>
                     </div>
