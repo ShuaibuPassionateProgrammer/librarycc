@@ -34,7 +34,9 @@ include "includes/header.php";
                         <div class="col-md-6">
                             <table class="table table-borderless">
                                 <tbody>
-                                    <tr></tr>
+                                    <tr>
+                                        <td>First Name</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
