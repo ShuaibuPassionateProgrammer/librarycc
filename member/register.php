@@ -36,6 +36,7 @@ include "includes/header.php";
                                 <tbody>
                                     <tr>
                                         <td>First Name</td>
+                                        <td><input type="text" name="firstname" class="form-control">
                                     </tr>
                                 </tbody>
                             </table>
