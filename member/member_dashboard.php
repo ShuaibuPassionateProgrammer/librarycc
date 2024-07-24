@@ -90,7 +90,9 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="update_books.php"></a>
+                <a href="update_books.php">
+                    <div class="card-rounded"></div>
+                </a>
             </div>
         </div>
     </div>
