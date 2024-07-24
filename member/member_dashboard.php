@@ -25,7 +25,9 @@
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item dropdown">
-                            <form action="logout.php" method="post"></form>
+                            <form action="logout.php" method="post">
+                                <button type="submit" name="logout_btn" class="btn btn-secondary">Logout</button>
+                            </form>
                         </li>
                     </ul>
                 </div>
