@@ -17,6 +17,7 @@ if(isset($_POST['login']))
         {
             $member_id = $row['id'];
             $member_username = $row['username'];
+            $member_password = $row['password'];
         }
     }
 }
