@@ -23,7 +23,9 @@
             <h3 class="text-light">Library CC</h3>
             <div class="collapse navbar-collapse">
                 <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto"></ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown"></li>
+                    </ul>
                 </div>
             </div>
         </nav>
