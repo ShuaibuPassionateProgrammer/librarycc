@@ -92,7 +92,9 @@
             <div class="col-md-4">
                 <a href="update_books.php">
                     <div class="card-rounded">
-                        <div class="card-body text-center"></div>
+                        <div class="card-body text-center">
+                            <button class="btn btn-outline-primary rounded librarian w-50">Update Books</button>
+                        </div>
                     </div>
                 </a>
             </div>
