@@ -72,7 +72,9 @@
     <div class="container p-2">
         <div class="row justify-content-center">
             <div class="col-md-4">
-                <a href="add_books.php"></a>
+                <a href="add_books.php">
+                    <div class="card rounded"></div>
+                </a>
             </div>
         </div>
     </div>
