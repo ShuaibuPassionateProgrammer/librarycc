@@ -12,5 +12,8 @@ if(isset($_POST['login']))
     $query_run = mysqli_query($conn, $query);
 
     if(mysqli_num_rows($query_run) > 0)
-    {}
+    {
+        while($row = mysqli_fetch_assoc($query_run))
+        {}
+    }
 }
