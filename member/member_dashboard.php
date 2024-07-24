@@ -73,7 +73,9 @@
         <div class="row justify-content-center">
             <div class="col-md-4">
                 <a href="add_books.php">
-                    <div class="card rounded"></div>
+                    <div class="card rounded">
+                        <div class="card-body text-center"></div>
+                    </div>
                 </a>
             </div>
         </div>
