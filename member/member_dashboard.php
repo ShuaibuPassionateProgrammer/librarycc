@@ -51,6 +51,7 @@
         $_SESSION['response'] = "Access denied! Login to access the member dashboard.";
         $_SESSION['res_type'] = "warning";
         header("location: ../member");
+        exit(0);
     }
     ?>
 </body>
