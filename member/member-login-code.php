@@ -24,6 +24,7 @@ if(isset($_POST['login']))
         $_SESSION['auth_member'] = [
             'member_id' => $librarian_id,
             'member_username' => $member_username,
+            'member_password' => $member_password
         ];
     }
 }
