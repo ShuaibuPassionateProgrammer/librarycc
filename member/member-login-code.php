@@ -26,5 +26,7 @@ if(isset($_POST['login']))
             'member_username' => $member_username,
             'member_password' => $member_password
         ];
+
+        $_SESSION['response'] = "Logged In Successfully";
     }
 }
