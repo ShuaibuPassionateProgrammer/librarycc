@@ -22,7 +22,9 @@
             </a>
             <h3 class="text-light">Library CC</h3>
             <div class="collapse navbar-collapse">
-                <div class="collapse navbar-collapse"></div>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto"></ul>
+                </div>
             </div>
         </nav>
     </div>
