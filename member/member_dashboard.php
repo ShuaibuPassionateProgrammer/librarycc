@@ -91,7 +91,9 @@
             </div>
             <div class="col-md-4">
                 <a href="update_books.php">
-                    <div class="card-rounded"></div>
+                    <div class="card-rounded">
+                        <div class="card-body text-center"></div>
+                    </div>
                 </a>
             </div>
         </div>
