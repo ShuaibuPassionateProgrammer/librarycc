@@ -40,3 +40,4 @@ if(isset($_POST['login']))
         exit(0);
     }
 }
+?>
