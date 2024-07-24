@@ -34,7 +34,9 @@
                     <div class="dropdown-menu">
                         <a href="#" class="dropdown-item">Profile</a>
                         <a href="#" class="dropdown-item">Settings</a>
-                        <form action="logout.php" method="post"></form>
+                        <form action="logout.php" method="post">
+                            <button type="submit" name="logout_btn" class="dropdown-item">Logout</button>
+                        </form>
                     </div>
                 </div>
             </div>
