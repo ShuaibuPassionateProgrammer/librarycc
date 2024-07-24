@@ -21,7 +21,9 @@
                 <img src="images/library_image.png" width="50" height="50" alt="Library Image Logo">
             </a>
             <h3 class="text-light">Library CC</h3>
-            <div class="collapse navbar-collapse"></div>
+            <div class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse"></div>
+            </div>
         </nav>
     </div>
 </body>
