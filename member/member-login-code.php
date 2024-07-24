@@ -29,5 +29,6 @@ if(isset($_POST['login']))
 
         $_SESSION['response'] = "Logged In Successfully";
         $_SESSION['res_type'] = "success";
+        header("location: home.php");
     }
 }
