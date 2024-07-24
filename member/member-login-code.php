@@ -19,5 +19,7 @@ if(isset($_POST['login']))
             $member_username = $row['username'];
             $member_password = $row['password'];
         }
+
+        $_SESSION['auth'] = true;
     }
 }
