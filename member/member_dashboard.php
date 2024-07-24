@@ -47,7 +47,9 @@
     session_start();
     
     if(!isset($_SESSION['auth']))
-    {}
+    {
+        $_SESSION['response'] = "Access denied! Login to access the member dashboard.";
+    }
     ?>
 </body>
 </html>
