@@ -32,4 +32,6 @@ if(isset($_POST['login']))
         header("location: home.php");
         exit(0);
     }
+    else
+    {}
 }
