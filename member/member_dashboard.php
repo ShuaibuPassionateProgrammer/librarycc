@@ -31,7 +31,9 @@
                         </li>
                     </ul>
 
-                    <div class="dropdown-menu"></div>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Profile</a>
+                    </div>
                 </div>
             </div>
         </nav>
