@@ -9,5 +9,6 @@ if(isset($_POST['logout_btn']))
         unset($_SESSION['auth_librarian']);
         $_SESSION['response'] = "Logout successfully";
         $_SESSION['res_type'] = "info";
+        header("location: ../member");
     }
 }
