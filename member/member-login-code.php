@@ -21,5 +21,6 @@ if(isset($_POST['login']))
         }
 
         $_SESSION['auth'] = true;
+        $_SESSION['auth_member'] = [];
     }
 }
