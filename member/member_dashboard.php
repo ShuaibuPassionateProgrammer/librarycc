@@ -42,5 +42,9 @@
             </div>
         </nav>
     </div>
+
+    <?php
+    session_start();
+    ?>
 </body>
 </html>
