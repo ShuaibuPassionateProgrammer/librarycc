@@ -53,6 +53,7 @@
         header("location: ../member");
         exit(0);
     }
+    else {}
     ?>
 </body>
 </html>
