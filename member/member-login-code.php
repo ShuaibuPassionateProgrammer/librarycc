@@ -33,5 +33,7 @@ if(isset($_POST['login']))
         exit(0);
     }
     else
-    {}
+    {
+        $_SESSION["response"] = "Invalid Username or Password";
+    }
 }
