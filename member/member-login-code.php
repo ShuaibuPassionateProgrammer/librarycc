@@ -16,6 +16,7 @@ if(isset($_POST['login']))
         while($row = mysqli_fetch_assoc($query_run))
         {
             $member_id = $row['id'];
+            $member_username = $row['username'];
         }
     }
 }
