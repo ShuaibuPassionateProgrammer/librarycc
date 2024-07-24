@@ -53,7 +53,10 @@
         header("location: ../member");
         exit(0);
     }
-    else {}
+    else {
+        if(isset($_SESSION['auth']['auth_member']))
+        {}
+    }
     ?>
 </body>
 </html>
