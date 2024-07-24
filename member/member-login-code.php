@@ -10,4 +10,7 @@ if(isset($_POST['login']))
 
     $query = "SELECT * FROM member WHERE username='$username' AND password='$password' LIMIT 1";
     $query_run = mysqli_query($conn, $query);
+
+    if(mysqli_num_rows($query_run) > 0)
+    {}
 }
