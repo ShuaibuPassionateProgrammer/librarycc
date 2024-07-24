@@ -10,5 +10,6 @@ if(isset($_POST['logout_btn']))
         $_SESSION['response'] = "Logout successfully";
         $_SESSION['res_type'] = "info";
         header("location: ../member");
+        exit(0);
     }
 }
