@@ -98,7 +98,9 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <a href="delete_books.php"></a>
+            </div>
         </div>
     </div>
 </body>
