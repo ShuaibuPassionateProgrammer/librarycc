@@ -9,4 +9,5 @@ if(isset($_POST['login']))
     $password = sha1($password);
 
     $query = "SELECT * FROM member WHERE username='$username' AND password='$password' LIMIT 1";
+    $query_run = mysqli_query($conn, $query);
 }
