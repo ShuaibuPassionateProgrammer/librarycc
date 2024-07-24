@@ -71,7 +71,9 @@
 
     <div class="container p-2">
         <div class="row justify-content-center">
-            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <a href="add_books.php"></a>
+            </div>
         </div>
     </div>
 </body>
