@@ -35,5 +35,6 @@ if(isset($_POST['login']))
     else
     {
         $_SESSION["response"] = "Invalid Username or Password";
+        $_SESSION["res_type"] = "danger";
     }
 }
