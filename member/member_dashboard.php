@@ -33,6 +33,7 @@
 
                     <div class="dropdown-menu">
                         <a href="#" class="dropdown-item">Profile</a>
+                        <a href="#" class="dropdown-item">Settings</a>
                     </div>
                 </div>
             </div>
