@@ -27,5 +27,7 @@ if(isset($_POST['login']))
             'librarian_username' => $librarian_username,
             'librarian_password' => $librarian_password
         ];
+
+        $_SESSION['response'] = "Logged In Successfully";
     }
 }
