@@ -20,5 +20,7 @@ if(isset($_POST['login']))
             $librarian_username = $row['username'];
             $librarian_password = $row['password'];
         }
+
+        $_SESSION['auth'] = true;
     }
 }
