@@ -21,7 +21,7 @@
         <div class="row justify-content-center">
             <div class="col-md-5">
                 <?php include("message.php"); ?>
-                
+                <form action="logincode.php" method="post"></form>
             </div>
         </div>
     </div>
