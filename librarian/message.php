@@ -9,4 +9,5 @@ if(isset($_SESSION['response']))
         </button>
     </div>
     <?php
+    unset($_SESSION['response']);
 }
