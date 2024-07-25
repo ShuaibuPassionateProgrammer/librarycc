@@ -17,6 +17,7 @@ if(isset($_POST['login']))
         while($row = mysqli_fetch_assoc($query_run))
         {
             $librarian_id = $row['id'];
+            $librarian_username = $row['username'];
         }
     }
 }
