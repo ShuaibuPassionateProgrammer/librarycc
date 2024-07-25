@@ -12,4 +12,7 @@ if(isset($_POST['register']))
     $cpassword = mysqli_real_escape_string($conn, $_POST['cpassword']);
     $password = sha1($password);
     $cpassword = sha1($cpassword);
+
+    if($password == $cpassword)
+    {}
 }
