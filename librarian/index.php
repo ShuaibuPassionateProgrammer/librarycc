@@ -36,7 +36,10 @@
                         <input type="submit" name="login" value="Log In" class="btn btn-outline-primary rounded" style="width: 20%">
                     </div>
 
-                    <div class="form-group text-center"></div>
+                    <div class="form-group text-center">
+                        <!--<p>Not yet a member?<a href="register.php">Register</a></p>-->
+                        <p><a href="/librarycc">Back to Homepage</a></p>
+                    </div>
                 </form>
             </div>
         </div>
