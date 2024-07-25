@@ -22,6 +22,7 @@ if(isset($_POST['register']))
         {
             $_SESSION['response'] = "Registration is successful";
             $_SESSION['res_type'] = "success";
+            header("location: ../member");
         }
     }
 }
