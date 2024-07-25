@@ -31,6 +31,8 @@
                         <label for="password">Password</label>
                         <input type="password" name="password" id="password" placeholder="Librarian Password" class="form-control rounded" required>
                     </div>
+
+                    <div class="form-group text-right"></div>
                 </form>
             </div>
         </div>
