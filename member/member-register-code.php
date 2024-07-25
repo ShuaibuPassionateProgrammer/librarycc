@@ -13,6 +13,28 @@ if(isset($_POST['register']))
     $password = sha1($password);
     $cpassword = sha1($cpassword);
 
+    /*$username_check = "SELECT username FROM member WHERE username='$username'";
+    $username_check_run = mysqli_query($conn, $username_check);
+
+    if($username_check_run)
+    {
+        $_SESSION['response'] = "Username is already taken";
+        $_SESSION['res_type'] = "danger";
+        header("location: register.php");
+        return false;
+    }
+
+    $email_check = "SELECT email FROM member WHERE email='$email'";
+    $email_check_run = mysqli_query($conn, $email_check);
+
+    if($email_check_run)
+    {
+        $_SESSION['response'] = "Email id is already taken";
+        $_SESSION['res_type'] = "danger";
+        header("location: register.php");
+        return false;
+    }*/
+
     if($password == $cpassword)
     {
         $query = "INSERT INTO member(firstname, lastname, username, email, password)VALUES('$firstname','$lastname','$username','$email','$password')";
@@ -24,11 +46,14 @@ if(isset($_POST['register']))
             $_SESSION['res_type'] = "success";
             header("location: ../member");
         }
-        else
-        {
-            $_SESSION['response'] = "Two Password does not match";
-            $_SESSION['res_type'] = "danger";
-            header("location: register.php");
-        }
     }
+    else
+    {
+        $_SESSION['response'] = "Two Password does not match";
+        $_SESSION['res_type'] = "danger";
+        header("location: register.php");
+    }
+
+    
 }
+?>
