@@ -24,6 +24,7 @@
                 <form action="logincode.php" method="post">
                     <div class="form-group">
                         <label for="username">Username</label>
+                        <input type="text" name="username" id="username" placeholder="Librarian Username" class="form-control rounded" required>
                     </div>
                 </form>
             </div>
