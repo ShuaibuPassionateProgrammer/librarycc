@@ -24,5 +24,9 @@ if(isset($_POST['register']))
             $_SESSION['res_type'] = "success";
             header("location: ../member");
         }
+        else
+        {
+            
+        }
     }
 }
