@@ -15,6 +15,8 @@ if(isset($_POST['login']))
     if(mysqli_num_rows($query_run) > 0)
     {
         while($row = mysqli_fetch_assoc($query_run))
-        {}
+        {
+            $librarian_id = $row['id'];
+        }
     }
 }
