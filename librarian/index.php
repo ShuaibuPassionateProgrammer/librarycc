@@ -35,6 +35,8 @@
                     <div class="form-group text-right">
                         <input type="submit" name="login" value="Log In" class="btn btn-outline-primary rounded" style="width: 20%">
                     </div>
+
+                    <div class="form-group text-center"></div>
                 </form>
             </div>
         </div>
