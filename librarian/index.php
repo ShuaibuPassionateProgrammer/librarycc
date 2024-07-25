@@ -22,7 +22,9 @@
             <div class="col-md-5">
                 <?php include("message.php"); ?>
                 <form action="logincode.php" method="post">
-                    <div class="form-group"></div>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                    </div>
                 </form>
             </div>
         </div>
