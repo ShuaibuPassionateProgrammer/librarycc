@@ -18,6 +18,7 @@ if(isset($_POST['login']))
         {
             $librarian_id = $row['id'];
             $librarian_username = $row['username'];
+            $librarian_password = $row['password'];
         }
     }
 }
