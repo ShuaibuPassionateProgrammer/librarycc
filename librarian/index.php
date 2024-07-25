@@ -12,7 +12,9 @@
     ?>
 
     <div class="container mt-5">
-        <div class="row justify-content-center"></div>
+        <div class="row justify-content-center">
+            <img src="images/img_4045.png" alt="" class="logo p-2">
+        </div>
     </div>
 </body>
 </html>
