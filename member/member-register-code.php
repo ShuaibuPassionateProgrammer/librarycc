@@ -10,4 +10,5 @@ if(isset($_POST['register']))
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     $password = mysqli_real_escape_string($conn, $_POST['password']);
     $cpassword = mysqli_real_escape_string($conn, $_POST['cpassword']);
+    $password = sha1($password);
 }
