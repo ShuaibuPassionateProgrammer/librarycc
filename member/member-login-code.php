@@ -40,4 +40,11 @@ if(isset($_POST['login']))
         exit(0);
     }
 }
+// else
+// {
+//     $_SESSION["response"] = "Access denied!";
+//     $_SESSION["res_type"] = "warning";
+//     header("location: ../librarian");
+//     exit(0);
+// }
 ?>
