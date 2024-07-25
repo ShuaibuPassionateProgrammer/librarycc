@@ -28,6 +28,7 @@ if(isset($_POST['register']))
         {
             $_SESSION['response'] = "Two Password does not match";
             $_SESSION['res_type'] = "danger";
+            header("location: register.php");
         }
     }
 }
