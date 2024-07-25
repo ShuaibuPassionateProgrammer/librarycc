@@ -1,7 +1,6 @@
 <?php
 session_start();
 include "includes/header.php";
-iclude "includes/navbar.php";
 ?>
 
 <div class="container mt-5">
@@ -13,10 +12,10 @@ iclude "includes/navbar.php";
 <div class="container mt-4">
     <div class="row justify-content-center">
         <div class="col-md-6">
-            <?php //include("message.php"); ?>
+            <?php include("message.php"); ?>
         </div>
     </div>
-</div>
+</div> 
 
 <div class="container mt-5">
     <div class="row justify-content-center">
@@ -35,9 +34,10 @@ iclude "includes/navbar.php";
                 </div>
                 <div class="form-group text-center">
                     <p>Not yet a member?<a href="register.php">Register</a></p>
-                    <p><a href="../">Back to Homepage</a></p>
+                    <p><a href="/librarycc">Back to Homepage</a></p>
                 </div>
             </form>
         </div>
     </div>
 </div>
+<?php include "includes/footer.php"; ?>
