@@ -2,7 +2,7 @@
 if(isset($_SESSION['response']))
 {
     ?>
-    <div class="alert alert-<?php echo $_SESSION['res_type']; ?>
+    <div class="alert alert-<?php echo $_SESSION['res_type']; ?> alert-dismissible fade show">
         <?php echo $_SESSION['response']; ?>
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
@@ -11,3 +11,4 @@ if(isset($_SESSION['response']))
     <?php
     unset($_SESSION['response']);
 }
+?>
