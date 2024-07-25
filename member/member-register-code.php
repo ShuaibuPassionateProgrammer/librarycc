@@ -19,6 +19,8 @@ if(isset($_POST['register']))
         $query_run = mysqli_query($conn, $query);
 
         if($query_run)
-        {}
+        {
+            $_SESSION['response'] = "Registration is successful";
+        }
     }
 }
