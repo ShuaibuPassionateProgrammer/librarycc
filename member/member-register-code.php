@@ -14,5 +14,7 @@ if(isset($_POST['register']))
     $cpassword = sha1($cpassword);
 
     if($password == $cpassword)
-    {}
+    {
+        $query = "INSERT INTO member(firstname, lastname, username, email, password)VALUES('$firstname','$lastname','$username','$email','$password')";
+    }
 }
