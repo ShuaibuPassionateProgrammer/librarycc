@@ -16,5 +16,6 @@ if(isset($_POST['register']))
     if($password == $cpassword)
     {
         $query = "INSERT INTO member(firstname, lastname, username, email, password)VALUES('$firstname','$lastname','$username','$email','$password')";
+        $query_run = mysqli_query($conn, $query);
     }
 }
