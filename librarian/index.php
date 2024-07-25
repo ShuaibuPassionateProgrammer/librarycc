@@ -32,7 +32,9 @@
                         <input type="password" name="password" id="password" placeholder="Librarian Password" class="form-control rounded" required>
                     </div>
 
-                    <div class="form-group text-right"></div>
+                    <div class="form-group text-right">
+                        <input type="submit" name="login" value="Log In" class="btn btn-outline-primary rounded" style="width: 20%">
+                    </div>
                 </form>
             </div>
         </div>
