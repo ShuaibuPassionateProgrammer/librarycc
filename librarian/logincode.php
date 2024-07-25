@@ -33,5 +33,7 @@ if(isset($_POST['login']))
         header("location: librarian_dashboard.php");
         exit(0);
     }
-    else {}
+    else {
+        $_SESSION["response"] = "Invalid Username or Password";
+    }
 }
