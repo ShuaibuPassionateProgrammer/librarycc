@@ -37,5 +37,6 @@ if(isset($_POST['login']))
         $_SESSION["response"] = "Invalid Username or Password";
         $_SESSION["res_type"] = "danger";
         header("location: ../librarian");
+        exit(0);
     }
 }
