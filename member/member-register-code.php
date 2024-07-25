@@ -21,6 +21,7 @@ if(isset($_POST['register']))
         if($query_run)
         {
             $_SESSION['response'] = "Registration is successful";
+            $_SESSION['res_type'] = "success";
         }
     }
 }
