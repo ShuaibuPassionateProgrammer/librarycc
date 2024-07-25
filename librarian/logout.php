@@ -3,5 +3,8 @@ session_start();
 if(isset($_POST['logout_btn']))
 {
     if(isset($_SESSION['auth']))
-    {}
+    {
+        //session_destroy();
+        unset($_SESSION['auth']);
+    }
 }
