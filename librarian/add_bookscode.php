@@ -28,6 +28,8 @@ if(isset($_POST['add_book']))
     $class_cat = mysqli_real_escape_string($conn, $_POST['class_cat']);
 
     if(isset($_FILES['pdf_file']['name']))
-    {}
+    {
+        $pdf_file = $_FILES['pdf_file']['name'];
+    }
 }
 ?>
