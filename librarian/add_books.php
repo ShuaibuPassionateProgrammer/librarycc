@@ -149,7 +149,9 @@ else
                                         <td><input type="text" name="class_cat" class="form-control"></td>
                                     </tr>
                                     <tr>
-                                        <td colspan="2" class="text-right"></td>
+                                        <td colspan="2" class="text-right">
+                                            <a href="librarian_dashboard.php" class="btn btn-outline-secondary">Back</a>
+                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
