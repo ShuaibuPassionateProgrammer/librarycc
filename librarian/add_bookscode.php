@@ -8,5 +8,6 @@ if(isset($_POST['add_book']))
     $other_author = mysqli_real_escape_string($conn, $_POST['other_author']);
     $editors = mysqli_real_escape_string($conn, $_POST['editors']);
     $title = mysqli_real_escape_string($conn, $_POST['title']);
+    $edition = mysqli_real_escape_string($conn, $_POST['edition']);
 }
 ?>
