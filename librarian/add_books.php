@@ -59,7 +59,9 @@ else
                                         <td>Editor(s) if any</td>
                                         <td><input type="text" name="editors" class="form-control"></td>
                                     </tr>
-                                    <tr></tr>
+                                    <tr>
+                                        <td>Edition</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
