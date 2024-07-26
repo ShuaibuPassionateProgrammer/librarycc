@@ -111,6 +111,7 @@ else
                                     </tr>
                                     <tr>
                                         <td>Title</td>
+                                        <td><input type="text" name="title" class="form-control"></td>
                                     </tr>
                                 </tbody>
                             </table>
