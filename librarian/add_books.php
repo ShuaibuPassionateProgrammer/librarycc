@@ -55,7 +55,9 @@ else
                                         <td>Name of Main Author</td>
                                         <td><input type="text" name="main_author" class="form-control"></td>
                                     </tr>
-                                    <tr></tr>
+                                    <tr>
+                                        <td>Editor(s) if any</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
