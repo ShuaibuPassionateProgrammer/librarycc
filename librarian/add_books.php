@@ -102,7 +102,9 @@ else
                                 </tbody>
                             </table>
                         </div>
-                        <div class="col-md-6"></div>
+                        <div class="col-md-6">
+                            <table class="table table-borderless"></table>
+                        </div>
                     </div>
                 </fieldset>
             </form>
