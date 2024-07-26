@@ -44,7 +44,9 @@ else
     <div class="row justify-content-center">
         <div class="col-md-12">
             <form action="add_bookscode.php" method="post" enctype="multipart/form-data">
-                <fieldset class="border p-2"></fieldset>
+                <fieldset class="border p-2">
+                    <legend class="float-none w-auto">Book Cataloguing</legend>
+                </fieldset>
             </form>
         </div>
     </div>
