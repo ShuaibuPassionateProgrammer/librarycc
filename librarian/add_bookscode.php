@@ -18,5 +18,6 @@ if(isset($_POST['add_book']))
     $length = mysqli_real_escape_string($conn, $_POST['length']);
     $note = mysqli_real_escape_string($conn, $_POST['note']);
     $series = mysqli_real_escape_string($conn, $_POST['series']);
+    $isbn = mysqli_real_escape_string($conn, $_POST['isbn']);
 }
 ?>
