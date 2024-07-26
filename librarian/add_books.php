@@ -136,6 +136,7 @@ else
                                         <td>Hbk/Pbk</td>
                                         <td><input type="text" name="hbk" class="form-control"></td>
                                     </tr>
+                                    <tr></tr>
                                 </tbody>
                             </table>
                         </div>
