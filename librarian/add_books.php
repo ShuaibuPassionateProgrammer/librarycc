@@ -93,6 +93,7 @@ else
                                     </tr>
                                     <tr>
                                         <td>Catalogued by</td>
+                                        <td><input type="text" name="cataloger" class="form-control"></td>
                                     </tr>
                                 </tbody>
                             </table>
