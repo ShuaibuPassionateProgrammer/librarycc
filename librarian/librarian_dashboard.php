@@ -17,3 +17,6 @@ else {
         unset($_SESSION['auth_librarian']['librarian_username']);
     }
 }
+?>
+
+<div class="container p-2 mt-5"></div>
