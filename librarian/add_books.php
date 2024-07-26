@@ -121,6 +121,7 @@ else
                                         <td>Publisher</td>
                                         <td><input type="text" name="publisher" class="form-control"></td>
                                     </tr>
+                                    <tr></tr>
                                 </tbody>
                             </table>
                         </div>
