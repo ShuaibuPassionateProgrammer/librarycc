@@ -15,5 +15,6 @@ if(isset($_POST['add_book']))
     $pages = mysqli_real_escape_string($conn, $_POST['pages']);
     $mainpages = mysqli_real_escape_string($conn, $_POST['mainpages']);
     $illustration = mysqli_real_escape_string($conn, $_POST['illustration']);
+    $length = mysqli_real_escape_string($conn, $_POST['length']);
 }
 ?>
