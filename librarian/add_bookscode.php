@@ -12,5 +12,7 @@ if(isset($_POST['add_book']))
     $tmaterial = mysqli_real_escape_string($conn, $_POST['tmaterial']);
     $publication = mysqli_real_escape_string($conn, $_POST['publication']);
     $publisher = mysqli_real_escape_string($conn, $_POST['publisher']);
+    $pages = mysqli_real_escape_string($conn, $_POST['pages']);
+    $mainpages = mysqli_real_escape_string($conn, $_POST['mainpages']);
 }
 ?>
