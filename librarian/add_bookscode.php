@@ -42,6 +42,9 @@ if(isset($_POST['add_book']))
                         cataloger='$cataloger', class_cat='$class_cat', bookname='$pdf_file'
                 ";
             $query_run = mysqli_query($conn, $query);
+
+            if($query_run)
+            {}
         }
     }
 }
