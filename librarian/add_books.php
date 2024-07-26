@@ -148,7 +148,9 @@ else
                                         <td>Class Category</td>
                                         <td><input type="text" name="class_cat" class="form-control"></td>
                                     </tr>
-                                    <tr></tr>
+                                    <tr>
+                                        <td colspan="2" class="text-right"></td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
