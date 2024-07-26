@@ -105,7 +105,9 @@ else
                         <div class="col-md-6">
                             <table class="table table-borderless">
                                 <tbody>
-                                    <tr></tr>
+                                    <tr>
+                                        <td>Other Authors</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
