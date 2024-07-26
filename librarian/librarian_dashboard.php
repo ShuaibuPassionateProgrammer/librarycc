@@ -29,6 +29,8 @@ else {
 
 <div class="container mt-5">
     <div class="row justify-content-center mt-5">
-        <div class="col-md-4 mt-5"></div>
+        <div class="col-md-4 mt-5">
+            <a href="add_books.php" class="btn btn-outline-primary btn-lg rounded w-100">Cataloguing Worksheet</a>
+        </div>
     </div>
 </div>
