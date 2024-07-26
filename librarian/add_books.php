@@ -117,6 +117,7 @@ else
                                         <td>Type of Material</td>
                                         <td><input type="text" name="tmaterial" class="form-control"></td>
                                     </tr>
+                                    <tr></tr>
                                 </tbody>
                             </table>
                         </div>
