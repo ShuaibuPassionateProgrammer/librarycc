@@ -118,6 +118,7 @@ else
                                         <td><input type="text" name="tmaterial" class="form-control"></td>
                                     </tr>
                                     <tr>
+                                        <td>Publisher</td>
                                         <td><input type="text" name="publisher" class="form-control"></td>
                                     </tr>
                                 </tbody>
