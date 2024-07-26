@@ -75,7 +75,9 @@ else
                                         <td>Illustration</td>
                                         <td><input type="text" name="illustration" class="form-control"></td>
                                     </tr>
-                                    <tr></tr>
+                                    <tr>
+                                        <td>Note</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
