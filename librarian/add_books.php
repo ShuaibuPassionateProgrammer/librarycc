@@ -83,7 +83,9 @@ else
                                         <td>ISBN/ISSN</td>
                                         <td><input type="text" name="isbn" class="form-control"></td>
                                     </tr>
-                                    <tr></tr>
+                                    <tr>
+                                        <td>Access No.</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
