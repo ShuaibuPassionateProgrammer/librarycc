@@ -57,6 +57,7 @@ else
                                     </tr>
                                     <tr>
                                         <td>Editor(s) if any</td>
+                                        <td><input type="text" name="editors" class="form-control"></td>
                                     </tr>
                                 </tbody>
                             </table>
