@@ -20,5 +20,7 @@ else {
 ?>
 
 <div class="container p-2 mt-5">
-    <div class="row justify-content-center"></div>
+    <div class="row justify-content-center">
+        <div class="col-md-8"></div>
+    </div>
 </div>
