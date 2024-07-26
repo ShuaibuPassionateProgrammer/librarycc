@@ -33,6 +33,8 @@ else {
             <a href="add_books.php" class="btn btn-outline-primary btn-lg rounded w-100">Cataloguing Worksheet</a>
         </div>
 
-        <div class="col-md-4 mt-5"></div>
+        <div class="col-md-4 mt-5">
+            <a href="view_books.php" class="btn btn-outline-primary btn-lg rounded w-100">Classification Worksheet</a>
+        </div>
     </div>
 </div>
