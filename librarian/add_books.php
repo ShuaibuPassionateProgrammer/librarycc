@@ -63,7 +63,9 @@ else
                                         <td>Edition</td>
                                         <td><input type="text" name="edition" class="form-control"></td>
                                     </tr>
-                                    <tr></tr>
+                                    <tr>
+                                        <td><input type="text" name="publication" class="form-control"></td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
