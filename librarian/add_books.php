@@ -10,3 +10,8 @@ if(!isset($_SESSION['auth']))
     header("location: ../librarian");
     exit(0);
 }
+else 
+{
+    if(isset($_SESSION['auth']['auth_librarian']))
+    {}
+}
