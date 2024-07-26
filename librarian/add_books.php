@@ -61,6 +61,7 @@ else
                                     </tr>
                                     <tr>
                                         <td>Edition</td>
+                                        <td><input type="text" name="edition" class="form-control"></td>
                                     </tr>
                                 </tbody>
                             </table>
