@@ -34,7 +34,14 @@ if(isset($_POST['add_book']))
 
         $upload = move_uploaded_file($pdf_temp, "pdf/".$pdf_file);
         if($upload)
-        {}
+        {
+            $query = "INSERT INTO book SET main_author='$main_author', other_author='$other_author', editors='$editors',
+                        title='$title', edition='$edition', tmaterial='$tmaterial', publication='$publication', publisher='$publisher',
+                        pages='$pages', mainpages='$mainpages', illustration='$illustration', length='$length', note='$note', series='$series',
+                        isbn='$isbn', hbk='$hbk', price='$price', callno='$callno', accessno='$accessno', subject_entry='$subject_entry',
+                        cataloger='$cataloger', class_cat='$class_cat', bookname='$pdf_file'
+                ";
+        }
     }
 }
 ?>
