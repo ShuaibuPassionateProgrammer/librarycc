@@ -47,6 +47,7 @@ if(isset($_POST['add_book']))
             {
                 $_SESSION['response'] = "Book Saved Successfully";
                 $_SESSION['res_type'] = "success";
+                header("location: view_books.php");
             }
         }
     }
