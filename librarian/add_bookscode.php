@@ -25,5 +25,6 @@ if(isset($_POST['add_book']))
     $accessno = mysqli_real_escape_string($conn, $_POST['accessno']);
     $subject_entry = mysqli_real_escape_string($conn, $_POST['subject_entry']);
     $cataloger = mysqli_real_escape_string($conn, $_POST['cataloger']);
+    $class_cat = mysqli_real_escape_string($conn, $_POST['class_cat']);
 }
 ?>
