@@ -44,7 +44,9 @@ if(isset($_POST['add_book']))
             $query_run = mysqli_query($conn, $query);
 
             if($query_run)
-            {}
+            {
+                $_SESSION['response'] = "Book Saved Successfully";
+            }
         }
     }
 }
