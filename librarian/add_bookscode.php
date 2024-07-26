@@ -22,5 +22,6 @@ if(isset($_POST['add_book']))
     $hbk = mysqli_real_escape_string($conn, $_POST['hbk']);
     $price = mysqli_real_escape_string($conn, $_POST['price']);
     $callno = mysqli_real_escape_string($conn, $_POST['callno']);
+    $accessno = mysqli_real_escape_string($conn, $_POST['accessno']);
 }
 ?>
