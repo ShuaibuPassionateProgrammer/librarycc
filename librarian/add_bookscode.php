@@ -51,6 +51,7 @@ if(isset($_POST['add_book']))
             }
             else {
                 $_SESSION['response'] = "Failed to Save Book";
+                $_SESSION['res_type'] = "danger";
             }
         }
     }
