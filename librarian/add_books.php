@@ -130,6 +130,7 @@ else
                                     </tr>
                                     <tr>
                                         <td>Series</td>
+                                        <td><input type="text" name="series" class="form-control"></td>
                                     </tr>
                                 </tbody>
                             </table>
