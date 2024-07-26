@@ -10,3 +10,6 @@ if(!isset($_SESSION['auth']))
     header("location: ../librarian");
     exit(0);
 }
+else {
+    
+}
