@@ -110,7 +110,7 @@ else
                                         <td><input type="text" name="other_author" class="form-control"></td>
                                     </tr>
                                     <tr>
-                                        
+                                        <td>Title</td>
                                     </tr>
                                 </tbody>
                             </table>
