@@ -53,6 +53,7 @@ else
                                 <tbody>
                                     <tr>
                                         <td>Name of Main Author</td>
+                                        <td><input type="text" name="main_author" class="form-control"></td>
                                     </tr>
                                 </tbody>
                             </table>
