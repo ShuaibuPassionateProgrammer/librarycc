@@ -41,6 +41,7 @@ if(isset($_POST['add_book']))
                         isbn='$isbn', hbk='$hbk', price='$price', callno='$callno', accessno='$accessno', subject_entry='$subject_entry',
                         cataloger='$cataloger', class_cat='$class_cat', bookname='$pdf_file'
                 ";
+            $query_run = mysqli_query($conn, $query);
         }
     }
 }
