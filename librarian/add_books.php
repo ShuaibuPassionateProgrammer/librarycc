@@ -68,7 +68,7 @@ else
                                         <td><input type="text" name="publication" class="form-control"></td>
                                     </tr>
                                     <tr>
-                                        <td></td>
+                                        <td>No. of Preliminary Pages</td>
                                     </tr>
                                 </tbody>
                             </table>
