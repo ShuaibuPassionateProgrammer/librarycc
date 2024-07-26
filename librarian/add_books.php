@@ -140,7 +140,9 @@ else
                                         <td>Call No</td>
                                         <td><input type="text" name="callno" class="form-control"></td>
                                     </tr>
-                                    <tr></tr>
+                                    <tr>
+                                        <td>Subject Added Entries</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
