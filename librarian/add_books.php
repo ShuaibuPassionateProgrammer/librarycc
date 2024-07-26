@@ -15,5 +15,6 @@ else
     if(isset($_SESSION['auth']['auth_librarian']))
     {
         echo "Hey! ".$_SESSION['auth_librarian']['librarian_username']." You are welcome to Librarian Dashboard";
+        unset($_SESSION['auth_librarian']['librarian_username']);
     }
 }
