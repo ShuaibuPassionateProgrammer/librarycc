@@ -50,7 +50,7 @@ if(isset($_POST['add_book']))
                 header("location: view_books.php");
             }
             else {
-                
+                $_SESSION['response'] = "Failed to Save Book";
             }
         }
     }
