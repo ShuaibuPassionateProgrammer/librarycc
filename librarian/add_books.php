@@ -113,7 +113,9 @@ else
                                         <td>Title</td>
                                         <td><input type="text" name="title" class="form-control"></td>
                                     </tr>
-                                    <tr></tr>
+                                    <tr>
+                                        <td>Type of Material</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
