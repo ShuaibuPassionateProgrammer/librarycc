@@ -55,6 +55,9 @@ if(isset($_POST['add_book']))
                 header("location: add_books.php");
             }
         }
+        else {
+            
+        }
     }
 }
 ?>
