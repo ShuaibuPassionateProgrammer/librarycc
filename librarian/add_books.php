@@ -84,10 +84,12 @@ else
                                         <td><input type="text" name="isbn" class="form-control"></td>
                                     </tr>
                                     <tr>
-                                        <td>Access No.</td>
+                                        <td>Price</td>
                                         <td><input type="text" name="price" class="form-control"></td>
                                     </tr>
-                                    <tr></tr>
+                                    <tr>
+
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
