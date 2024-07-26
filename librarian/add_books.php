@@ -124,6 +124,7 @@ else
                                     <tr>
                                         <td>No. of Main Pages:</td>
                                     </tr>
+                                    <tr></tr>
                                 </tbody>
                             </table>
                         </div>
