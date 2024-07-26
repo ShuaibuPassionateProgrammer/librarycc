@@ -97,6 +97,7 @@ else
                                     </tr>
                                     <tr>
                                         <td>Book Name</td>
+                                        <td><input type="file" name="pdf_file" accept=".pdf" class="form-control"></td>
                                     </tr>
                                 </tbody>
                             </table>
