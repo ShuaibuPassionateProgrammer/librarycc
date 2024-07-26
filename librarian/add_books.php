@@ -142,6 +142,7 @@ else
                                     </tr>
                                     <tr>
                                         <td>Subject Added Entries</td>
+                                        <td><input type="text" name="subject_entry" class="form-control"></td>
                                     </tr>
                                 </tbody>
                             </table>
