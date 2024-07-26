@@ -128,6 +128,7 @@ else
                                         <td>Length</td>
                                         <td><input type="text" name="length" class="form-control"></td>
                                     </tr>
+                                    <tr></tr>
                                 </tbody>
                             </table>
                         </div>
