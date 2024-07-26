@@ -11,5 +11,6 @@ if(isset($_POST['add_book']))
     $edition = mysqli_real_escape_string($conn, $_POST['edition']);
     $tmaterial = mysqli_real_escape_string($conn, $_POST['tmaterial']);
     $publication = mysqli_real_escape_string($conn, $_POST['publication']);
+    $publisher = mysqli_real_escape_string($conn, $_POST['publisher']);
 }
 ?>
