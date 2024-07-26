@@ -49,7 +49,9 @@ else
                     
                     <div class="row">
                         <div class="col-md-6">
-                            <table class="table table-borderless"></table>
+                            <table class="table table-borderless">
+                                <tbody></tbody>
+                            </table>
                         </div>
                     </div>
                 </fieldset>
