@@ -30,6 +30,7 @@ if(isset($_POST['add_book']))
     if(isset($_FILES['pdf_file']['name']))
     {
         $pdf_file = $_FILES['pdf_file']['name'];
+        $pdf_temp = $_FILES['pdf_file']['tmp_name'];
     }
 }
 ?>
