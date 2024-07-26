@@ -79,6 +79,7 @@ else
                                         <td>Note</td>
                                         <td><input type="text" name="note"  class="form-control"></td>
                                     </tr>
+                                    <tr></tr>
                                 </tbody>
                             </table>
                         </div>
