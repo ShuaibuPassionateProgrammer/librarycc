@@ -121,7 +121,9 @@ else
                                         <td>Publisher</td>
                                         <td><input type="text" name="publisher" class="form-control"></td>
                                     </tr>
-                                    <tr></tr>
+                                    <tr>
+                                        <td>No. of Main Pages:</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
