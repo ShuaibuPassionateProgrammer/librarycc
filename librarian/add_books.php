@@ -48,7 +48,9 @@ else
                     <legend class="float-none w-auto">Book Cataloguing</legend>
                     
                     <div class="row">
-                        <div class="col-md-6"></div>
+                        <div class="col-md-6">
+                            <table class="table table-borderless"></table>
+                        </div>
                     </div>
                 </fieldset>
             </form>
