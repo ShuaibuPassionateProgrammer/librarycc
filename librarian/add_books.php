@@ -67,6 +67,7 @@ else
                                         <td>Place of Publication</td>
                                         <td><input type="text" name="publication" class="form-control"></td>
                                     </tr>
+                                    <tr></tr>
                                 </tbody>
                             </table>
                         </div>
