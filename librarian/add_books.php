@@ -81,6 +81,7 @@ else
                                     </tr>
                                     <tr>
                                         <td>ISBN/ISSN</td>
+                                        <td><input type="text" name="isbn" class="form-control"></td>
                                     </tr>
                                 </tbody>
                             </table>
