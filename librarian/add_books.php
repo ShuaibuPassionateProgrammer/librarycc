@@ -91,7 +91,9 @@ else
                                         <td>Access No.</td>
                                         <td><input type="text" name="accessno" class="form-control"></td>
                                     </tr>
-                                    <tr></tr>
+                                    <tr>
+                                        <td>Catalogued by</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
