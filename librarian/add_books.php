@@ -95,6 +95,7 @@ else
                                         <td>Catalogued by</td>
                                         <td><input type="text" name="cataloger" class="form-control"></td>
                                     </tr>
+                                    <tr></tr>
                                 </tbody>
                             </table>
                         </div>
