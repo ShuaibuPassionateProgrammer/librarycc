@@ -65,6 +65,7 @@ else
                                     </tr>
                                     <tr>
                                         <td><input type="text" name="publication" class="form-control"></td>
+                                        <td><input type="text" name="publication" class="form-control"></td>
                                     </tr>
                                 </tbody>
                             </table>
