@@ -79,7 +79,9 @@ else
                                         <td>Note</td>
                                         <td><input type="text" name="note"  class="form-control"></td>
                                     </tr>
-                                    <tr></tr>
+                                    <tr>
+                                        <td>ISBN/ISSN</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
