@@ -46,6 +46,8 @@ else
             <form action="add_bookscode.php" method="post" enctype="multipart/form-data">
                 <fieldset class="border p-2">
                     <legend class="float-none w-auto">Book Cataloguing</legend>
+                    
+                    <div class="row"></div>
                 </fieldset>
             </form>
         </div>
