@@ -146,6 +146,7 @@ else
                                     </tr>
                                     <tr>
                                         <td>Class Category</td>
+                                        <td><input type="text" name="class_cat" class="form-control"></td>
                                     </tr>
                                 </tbody>
                             </table>
