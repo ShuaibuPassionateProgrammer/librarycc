@@ -57,6 +57,7 @@ if(isset($_POST['add_book']))
         }
         else {
             $_SESSION['response'] = "Failed to Upload the Book";
+            $_SESSION['res_type'] = "danger";
         }
     }
 }
