@@ -31,7 +31,9 @@ else
 <div class="container p-2">
     <div class="row justify-content-center">
         <div class="col-md-12">
-            <div class="card"></div>
+            <div class="card">
+                <div class="card-body text-center">
+            </div>
         </div>
     </div>
 </div>
