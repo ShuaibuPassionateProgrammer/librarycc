@@ -73,6 +73,7 @@ else
                                     </tr>
                                     <tr>
                                         <td>Illustration</td>
+                                        <td><input type="text" name="illustration" class="form-control"></td>
                                     </tr>
                                 </tbody>
                             </table>
