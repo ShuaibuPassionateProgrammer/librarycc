@@ -132,7 +132,9 @@ else
                                         <td>Series</td>
                                         <td><input type="text" name="series" class="form-control"></td>
                                     </tr>
-                                    <tr></tr>
+                                    <tr>
+                                        <td>Hbk/Pbk</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
