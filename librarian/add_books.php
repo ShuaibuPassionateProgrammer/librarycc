@@ -89,6 +89,7 @@ else
                                     </tr>
                                     <tr>
                                         <td>Access No.</td>
+                                        <td><input type="text" name="accessno" class="form-control"></td>
                                     </tr>
                                 </tbody>
                             </table>
