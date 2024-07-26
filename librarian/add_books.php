@@ -107,6 +107,7 @@ else
                                 <tbody>
                                     <tr>
                                         <td>Other Authors</td>
+                                        <td><input type="text" name="other_author" class="form-control"></td>
                                     </tr>
                                 </tbody>
                             </table>
