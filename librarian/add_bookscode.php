@@ -33,6 +33,8 @@ if(isset($_POST['add_book']))
         $pdf_temp = $_FILES['pdf_file']['tmp_name'];
 
         $upload = move_uploaded_file($pdf_temp, "pdf/".$pdf_file);
+        if($upload)
+        {}
     }
 }
 ?>
