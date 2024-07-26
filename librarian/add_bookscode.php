@@ -9,5 +9,6 @@ if(isset($_POST['add_book']))
     $editors = mysqli_real_escape_string($conn, $_POST['editors']);
     $title = mysqli_real_escape_string($conn, $_POST['title']);
     $edition = mysqli_real_escape_string($conn, $_POST['edition']);
+    $tmaterial = mysqli_real_escape_string($conn, $_POST['tmaterial']);
 }
 ?>
