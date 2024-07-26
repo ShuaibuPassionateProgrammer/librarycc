@@ -151,6 +151,7 @@ else
                                     <tr>
                                         <td colspan="2" class="text-right">
                                             <a href="librarian_dashboard.php" class="btn btn-outline-secondary">Back</a>
+                                            <input type="submit" name="add_book" value="Save Book" class="btn btn-outline-primary">
                                         </td>
                                     </tr>
                                 </tbody>
