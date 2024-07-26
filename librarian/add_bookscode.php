@@ -46,6 +46,7 @@ if(isset($_POST['add_book']))
             if($query_run)
             {
                 $_SESSION['response'] = "Book Saved Successfully";
+                $_SESSION['res_type'] = "success";
             }
         }
     }
