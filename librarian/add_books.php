@@ -71,7 +71,9 @@ else
                                         <td>No. of Preliminary Pages</td>
                                         <td><input type="text" name="pages" class="form-control"></td>
                                     </tr>
-                                    <tr></tr>
+                                    <tr>
+                                        <td>Illustration</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
