@@ -291,7 +291,9 @@ else {
                 </tbody>
             </table>
             <table align="right">
-                <tr></tr>
+                <tr>
+                    <td colspan="2" class="text-right"></td>
+                </tr>
             </table>
         </div>
     </div>
