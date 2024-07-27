@@ -58,6 +58,7 @@ else {
             if(isset($_POST['btn_search']))
             {
                 $class_cat = mysqli_real_escape_string($conn, $_POST['class_cat']);
+                $search_query = "SELECT class_cat FROM book WHERE class_cat LIKE '%$class_cat%'";
             }
             ?>
         </div>
