@@ -23,6 +23,8 @@ else {
 
 <div class="container p-2">
     <div class="row justify-content-center">
-        <div class="col-md-8"></div>
+        <div class="col-md-8">
+            <?php include("message.php"); ?>
+        </div>
     </div>
 </div>
