@@ -184,4 +184,6 @@ else {
     </div>
 </div>
 
-<div class="container p-2"></div>
+<div class="container p-2">
+    <div class="row justify-content-center"></div>
+</div>
