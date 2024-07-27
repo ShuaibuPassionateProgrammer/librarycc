@@ -255,6 +255,7 @@ else {
                                 <td><?php echo $sn++; ?></td>
                                 <td><?php echo $main_author; ?></td>
                                 <td><?php echo $other_author; ?></td>
+                                <td><?php echo $editors; ?></td>
                             </tr>
                             <?php
                         }
