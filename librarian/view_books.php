@@ -37,7 +37,9 @@ else {
                     <h3>Book Classifications</h3>
                 </div>
                 <div class="card-body text-right">
-                    <form method="post"></form>
+                    <form method="post">
+                        <table></table>
+                    </form>
                 </div>
             </div>
         </div>
