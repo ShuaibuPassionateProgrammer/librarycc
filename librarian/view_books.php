@@ -122,6 +122,7 @@ else {
                                                 $isbn = $row['isbn'];
                                                 $hbk = $row['hbk'];
                                                 $price = $row['price'];
+                                                $callno = $row['callno'];
                                             }
                                         }
                                         ?>
