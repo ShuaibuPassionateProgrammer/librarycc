@@ -148,6 +148,7 @@ else {
                                                     <td><?php echo $price; ?></td>
                                                     <td><?php echo $callno; ?></td>
                                                     <td><?php echo $accessno; ?></td>
+                                                    <td><?php echo $subject_entry; ?></td>
                                                 </tr>
                                                 <?php
                                             }
