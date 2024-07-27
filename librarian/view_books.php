@@ -62,7 +62,11 @@ else {
                 $search_query_run = mysqli_query($conn, $search_query);
 
                 if(mysqli_num_rows($search_query_run) > 0)
-                {}
+                {
+                    ?>
+                    <div class="container-fluid p-2"></div>
+                    <?php
+                }
             }
             ?>
         </div>
