@@ -120,6 +120,7 @@ else {
                                                 $note = $row['note'];
                                                 $series = $row['series'];
                                                 $isbn = $row['isbn'];
+                                                $hbk = $row['hbk'];
                                             }
                                         }
                                         ?>
