@@ -132,6 +132,7 @@ else {
                                                     <td><?php echo $main_author; ?></td>
                                                     <td><?php echo $other_author; ?></td>
                                                     <td><?php echo $editors; ?></td>
+                                                    <td><?php echo $title; ?></td>
                                                 </tr>
                                                 <?php
                                             }
