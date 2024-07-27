@@ -35,6 +35,8 @@ if(isset($_POST['add_book']))
         $upload = move_uploaded_file($pdf_temp, "pdf/".$pdf_file);
         if($upload)
         {
+
+
             $query = "INSERT INTO book SET main_author='$main_author', other_author='$other_author', editors='$editors',
                         title='$title', edition='$edition', tmaterial='$tmaterial', publication='$publication', publisher='$publisher',
                         pages='$pages', mainpages='$mainpages', illustration='$illustration', length='$length', note='$note', series='$series',
@@ -49,17 +51,36 @@ if(isset($_POST['add_book']))
                 $_SESSION['res_type'] = "success";
                 header("location: view_books.php");
             }
-            else {
+            else
+            {
                 $_SESSION['response'] = "Failed to Save Book";
                 $_SESSION['res_type'] = "danger";
                 header("location: add_books.php");
             }
         }
-        else {
+        else
+        {
             $_SESSION['response'] = "Failed to Upload the Book";
             $_SESSION['res_type'] = "danger";
             header("location: add_books.php");
         }
     }
+    
+    /*if(isset($_FILES['pdf_file']['name']))
+    {
+        $file_name = $_FILES['pdf_file']['name'];
+        $file_tmp = $_FILES['pdf_file']['tmp_name'];
+
+        move_uploaded_file($file_tmp, "pdf/".$file_name);
+        $query = "INSERT INTO book(isbn, title, name, author, category)VALUES('$isbn', '$title', '$name', '$author', '$category')";
+        $query_run = mysqli_query($conn, $query);
+        $_SESSION['response'] = "Book Added Successfully";
+        $_SESSION['res_type'] = "success";
+        header("location: view_books.php");
+    }    
+    else
+    {
+        echo "It's only accept PDF files";
+    }*/
 }
 ?>
