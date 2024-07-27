@@ -269,6 +269,7 @@ else {
                                 <td><?php echo $series; ?></td>
                                 <td><?php echo $isbn; ?></td>
                                 <td><?php echo $hbk; ?></td>
+                                <td><?php echo $price; ?></td>
                             </tr>
                             <?php
                         }
