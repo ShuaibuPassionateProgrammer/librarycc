@@ -237,6 +237,7 @@ else {
                             $publication = $row['publication'];
                             $publisher = $row['publisher'];
                             $pages = $row['pages'];
+                            $mainpages = $row['mainpages'];
                         }
                     }
                     ?>
