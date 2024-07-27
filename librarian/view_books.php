@@ -253,6 +253,7 @@ else {
                             ?>
                             <tr>
                                 <td><?php echo $sn++; ?></td>
+                                <td><?php echo $main_author; ?></td>
                             </tr>
                             <?php
                         }
