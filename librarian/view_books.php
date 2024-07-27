@@ -251,6 +251,10 @@ else {
                             $cataloger = $row['cataloger'];
                             $bookname = $row['bookname'];
                             ?>
+                            <tr>
+                                
+                            </tr>
+                            <?php
                         }
                     }
                     ?>
