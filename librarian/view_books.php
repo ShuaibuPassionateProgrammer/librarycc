@@ -137,6 +137,7 @@ else {
                                                     <td><?php echo $tmaterial; ?></td>
                                                     <td><?php echo $publication; ?></td>
                                                     <td><?php echo $publisher; ?></td>
+                                                    <td><?php echo $pages; ?></td>
                                                 </tr>
                                                 <?php
                                             }
