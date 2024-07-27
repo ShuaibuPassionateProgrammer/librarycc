@@ -154,6 +154,11 @@ else {
                                                 <?php
                                             }
                                         }
+                                        else
+                                        {
+                                            ?>
+                                            <td colspan="22"><span class="text-danger">Books not yet Added</span></td>
+                                            <?php
                                         ?>
                                     </tbody>
                                 </table>
