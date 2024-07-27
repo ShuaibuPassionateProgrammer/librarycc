@@ -187,7 +187,9 @@ else {
 <div class="container p-2">
     <div class="row justify-content-center">
         <div class="col-md-12">
-            <table class="table table-bordered table-responsive"></table>
+            <table class="table table-bordered table-responsive">
+                <thead></thead>
+            </table>
         </div>
     </div>
 </div>
