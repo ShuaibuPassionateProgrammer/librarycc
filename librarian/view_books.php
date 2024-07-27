@@ -91,6 +91,7 @@ else {
                                              <th>ISBN/ISSN</th>
                                              <th>Hbk/Pbk</th>
                                              <th>Price</th>
+                                             <th>Call No</th>
                                         </tr>
                                     </thead>
                                 </table>
