@@ -39,7 +39,9 @@ else {
                 <div class="card-body text-right">
                     <form method="post">
                         <table>
-                            <tbody></tbody>
+                            <tbody>
+                                <td><input type="text" name="class_cat" class="form-control w-100" placeholder="Enter the Book Class Category to Locate a it"></td>
+                            </tbody>
                         </table>
                     </form>
                 </div>
