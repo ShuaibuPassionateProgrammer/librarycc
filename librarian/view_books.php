@@ -260,6 +260,7 @@ else {
                                 <td><?php echo $edition; ?></td>
                                 <td><?php echo $tmaterial; ?></td>
                                 <td><?php echo $publication; ?></td>
+                                <td><?php echo $publisher; ?></td>
                             </tr>
                             <?php
                         }
