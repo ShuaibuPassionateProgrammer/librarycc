@@ -12,5 +12,6 @@ if(isset($_POST['logout_btn']))
         $_SESSION['res_type'] = "info";
         header("location: ../librarian");
         exit(0);
-    }
+    }  
 }
+?>
