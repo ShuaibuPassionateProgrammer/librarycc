@@ -249,6 +249,7 @@ else {
                             $accessno = $row['accessno'];
                             $subject_entry = $row['subject_entry'];
                             $cataloger = $row['cataloger'];
+                            $bookname = $row['bookname'];
                         }
                     }
                     ?>
