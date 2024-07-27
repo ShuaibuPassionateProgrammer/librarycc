@@ -97,7 +97,11 @@ else {
                                              <th>Catalogued by</th>
                                         </tr>
                                     </thead>
-                                    <tbody></tbody>
+                                    <tbody>
+                                        <?php
+                                        $query = "SELECT * FROM book";
+                                        ?>
+                                    </tbody>
                                 </table>
                             </div>
                         </div>
