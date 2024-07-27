@@ -264,6 +264,7 @@ else {
                                 <td><?php echo $pages; ?></td>
                                 <td><?php echo $mainpages; ?></td>
                                 <td><?php echo $illustration; ?></td>
+                                <td><?php echo $length; ?></td>
                             </tr>
                             <?php
                         }
