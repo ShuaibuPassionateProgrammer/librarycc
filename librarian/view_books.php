@@ -231,6 +231,7 @@ else {
                             $main_author = $row['main_author'];
                             $other_author = $row['other_author'];
                             $editors = $row['editors'];
+                            $title = $row['title'];
                         }
                     }
                     ?>
