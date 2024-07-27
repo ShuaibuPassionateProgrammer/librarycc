@@ -239,6 +239,7 @@ else {
                             $pages = $row['pages'];
                             $mainpages = $row['mainpages'];
                             $illustration = $row['illustration'];
+                            
                         }
                     }
                     ?>
