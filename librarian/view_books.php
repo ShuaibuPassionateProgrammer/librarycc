@@ -83,6 +83,7 @@ else {
                                             <th>Place of Publication</th>
                                             <th>Publisher</th>
                                             <th>No. of Preliminary Pages</th>
+                                            <th>No. of Main Pages</th>
                                         </tr>
                                     </thead>
                                 </table>
