@@ -222,6 +222,8 @@ else {
                     <?php
                     $query = "SELECT * FROM book";
                     $query_run = mysqli_query($conn, $query);
+
+                    $sn = 1;
                     ?>
                 </tbody>
             </table>
