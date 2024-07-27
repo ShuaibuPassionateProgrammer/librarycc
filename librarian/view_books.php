@@ -205,6 +205,7 @@ else {
                         <th>No. of Preliminary Pages</th>
                         <th>No. of Main Pages</th>
                         <th>Illustrations</th>
+                        <th>Length</th>
                     </tr>
                 </thead>
             </table>
