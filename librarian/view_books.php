@@ -143,6 +143,7 @@ else {
                                                     <td><?php echo $length; ?></td>
                                                     <td><?php echo $note; ?></td>
                                                     <td><?php echo $series; ?></td>
+                                                    <td><?php echo $isbn; ?></td>
                                                 </tr>
                                                 <?php
                                             }
