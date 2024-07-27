@@ -291,7 +291,14 @@ else {
                 </tbody>
             </table>
             <table align="right">
-                <tbody></tbody>
+                <tbody>
+                    <tr>
+                        <td colspan="2" class="text-right">
+                            <a href="librarian_dashboard.php" class="btn btn-outline-secondary">Back</a>
+                            <a href="add_books.php" class="btn btn-outline-success">Add Books</a>
+                        </td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     </div>
