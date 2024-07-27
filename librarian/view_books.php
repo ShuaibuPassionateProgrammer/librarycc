@@ -86,6 +86,7 @@ else {
                                             <th>No. of Main Pages</th>
                                             <th>Illustrations</th>
                                              <th>Length</th>
+                                             <th>Note</th>
                                         </tr>
                                     </thead>
                                 </table>
