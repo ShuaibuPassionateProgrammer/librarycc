@@ -6,5 +6,7 @@ include "includes/header.php";
 
 <?php
 if(!isset($_SESSION['auth']))
-{}
+{
+    $_SESSION['response'] = "Access denied! Login to access the dashboard.";
+}
 ?>
