@@ -41,6 +41,7 @@ else {
                         <table>
                             <tbody>
                                 <td><input type="text" name="class_cat" class="form-control w-100" placeholder="Enter the Book Class Category to Locate a it"></td>
+                                <td><input type="submit" name="btn_search" value="Search" class="btn btn-outline-success "></td>
                             </tbody>
                         </table>
                     </form>
