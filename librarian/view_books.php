@@ -240,6 +240,7 @@ else {
                             $mainpages = $row['mainpages'];
                             $illustration = $row['illustration'];
                             $length = $row['length'];
+                            $note = $row['note'];
                         }
                     }
                     ?>
