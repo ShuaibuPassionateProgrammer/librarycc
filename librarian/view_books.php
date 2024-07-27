@@ -79,6 +79,7 @@ else {
                                             <th>Editor(s)</th>
                                             <th>Title</th>
                                             <th>Edition</th>
+                                            <th>Type of Material</th>
                                         </tr>
                                     </thead>
                                 </table>
