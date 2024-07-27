@@ -215,6 +215,7 @@ else {
                         <th>Accession No</th>
                         <th>Subject Added Entries</th>
                         <th>Catalogued by</th>
+                        <th>Book Name</th>
                     </tr>
                 </thead>
             </table>
