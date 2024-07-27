@@ -1,23 +1,24 @@
 <?php include("includes/header.php"); ?>
 
 <?php
-session_start();
+    session_start();
 
-if(!isset($_SESSION['auth']))
-{
-    $_SESSION['response'] = "Access denied! Login to access the dashboard.";
-    $_SESSION['res_type'] = "warning";
-    header("location: ../librarian");
-    exit(0);
-}
-else 
-{
-    if(isset($_SESSION['auth']['auth_librarian']))
+    if(!isset($_SESSION['auth']))
     {
-        echo "Hey! ".$_SESSION['auth_librarian']['librarian_username']." You are welcome to Librarian Dashboard";
-        unset($_SESSION['auth_librarian']['librarian_username']);
+        $_SESSION['response'] = "Access denied! Login to access the dashboard.";
+        $_SESSION['res_type'] = "warning";
+        header("location: ../librarian");
+        exit(0);
     }
-}
+    else
+    {
+        if(isset($_SESSION['auth']['auth_librarian']))
+        {
+            echo "Hey! ".$_SESSION['auth_librarian']['librarian_username']." You are welcome to Librarian Dashboard";
+            unset($_SESSION['auth_librarian']['librarian_username']);
+        }
+        
+    }
 ?>
 
 <div class="container p-2">
@@ -46,7 +47,6 @@ else
             <form action="add_bookscode.php" method="post" enctype="multipart/form-data">
                 <fieldset class="border p-2">
                     <legend class="float-none w-auto">Book Cataloguing</legend>
-                    
                     <div class="row">
                         <div class="col-md-6">
                             <table class="table table-borderless">
@@ -123,6 +123,7 @@ else
                                     </tr>
                                     <tr>
                                         <td>No. of Main Pages:</td>
+                                        <td><input type="text" name="mainpages" class="form-control"></td>
                                     </tr>
                                     <tr>
                                         <td>Length</td>
