@@ -241,6 +241,7 @@ else {
                             $illustration = $row['illustration'];
                             $length = $row['length'];
                             $note = $row['note'];
+                            $series = $row['series'];
                         }
                     }
                     ?>
