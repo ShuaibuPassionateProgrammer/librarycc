@@ -268,6 +268,7 @@ else {
                                 <td><?php echo $note; ?></td>
                                 <td><?php echo $series; ?></td>
                                 <td><?php echo $isbn; ?></td>
+                                <td><?php echo $hbk; ?></td>
                             </tr>
                             <?php
                         }
