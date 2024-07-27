@@ -74,6 +74,7 @@ else {
                                         </tr>
                                         <tr>
                                             <th>ID</th>
+                                            <th>Name of Main Author</th>
                                         </tr>
                                     </thead>
                                 </table>
