@@ -127,7 +127,9 @@ else {
                                                 $subject_entry = $row['subject_entry'];
                                                 $cataloger = $row['cataloger'];
                                                 ?>
-                                                <tr></tr>
+                                                <tr>
+                                                    <td><?php echo $sn++; ?></td>
+                                                </tr>
                                                 <?php
                                             }
                                         }
