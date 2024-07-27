@@ -93,6 +93,7 @@ else {
                                              <th>Price</th>
                                              <th>Call No</th>
                                              <th>Accession No</th>
+                                             <th>Subject Added Entries</th>
                                         </tr>
                                     </thead>
                                 </table>
