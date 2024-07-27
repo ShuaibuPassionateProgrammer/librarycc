@@ -110,6 +110,7 @@ else {
                                                 $editors = $row['editors'];
                                                 $title = $row['title'];
                                                 $edition = $row['edition'];
+                                                $tmaterial = $row['tmaterial'];
                                             }
                                         }
                                         ?>
