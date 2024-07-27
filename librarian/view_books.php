@@ -87,6 +87,7 @@ else {
                                             <th>Illustrations</th>
                                              <th>Length</th>
                                              <th>Note</th>
+                                             <th>Series</th>
                                         </tr>
                                     </thead>
                                 </table>
