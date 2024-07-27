@@ -5,20 +5,22 @@ include "includes/header.php";
 ?>
 
 <?php
-if(!isset($_SESSION['auth']))
-{
-    $_SESSION['response'] = "Access denied! Login to access the dashboard.";
-    $_SESSION['res_type'] = "warning";
-    header("location: ../librarian");
-    exit(0);
-}
-else {
-    if(isset($_SESSION['auth']['auth_librarian']))
+    if(!isset($_SESSION['auth']))
     {
-        echo "Hey! ".$_SESSION['auth_librarian']['librarian_username']." You are welcome to Librarian Dashboard";
-        unset($_SESSION['auth_librarian']['librarian_username']);
+        $_SESSION['response'] = "Access denied! Login to access the dashboard.";
+        $_SESSION['res_type'] = "warning";
+        header("location: ../librarian");
+        exit(0);
     }
-}
+    else
+    {
+        if(isset($_SESSION['auth']['auth_librarian']))
+        {
+            echo "Hey! ".$_SESSION['auth_librarian']['librarian_username']." You are welcome to Librarian Dashboard";
+            unset($_SESSION['auth_librarian']['librarian_username']);
+        }
+        
+    }
 ?>
 
 <div class="container p-2">
@@ -220,73 +222,73 @@ else {
                 </thead>
                 <tbody>
                     <?php
-                    $query = "SELECT * FROM book";
-                    $query_run = mysqli_query($conn, $query);
-
-                    $sn = 1;
-                    if(mysqli_num_rows($query_run) > 0)
-                    {
-                        while($row = mysqli_fetch_assoc($query_run))
+                        $query = "SELECT * FROM book";
+                        $query_run = mysqli_query($conn, $query);
+                        
+                        $sn = 1;
+                        if(mysqli_num_rows($query_run) > 0)
                         {
-                            $main_author = $row['main_author'];
-                            $other_author = $row['other_author'];
-                            $editors = $row['editors'];
-                            $title = $row['title'];
-                            $edition = $row['edition'];
-                            $tmaterial = $row['tmaterial'];
-                            $publication = $row['publication'];
-                            $publisher = $row['publisher'];
-                            $pages = $row['pages'];
-                            $mainpages = $row['mainpages'];
-                            $illustration = $row['illustration'];
-                            $length = $row['length'];
-                            $note = $row['note'];
-                            $series = $row['series'];
-                            $isbn = $row['isbn'];
-                            $hbk = $row['hbk'];
-                            $price = $row['price'];
-                            $callno = $row['callno'];
-                            $accessno = $row['accessno'];
-                            $subject_entry = $row['subject_entry'];
-                            $cataloger = $row['cataloger'];
-                            $bookname = $row['bookname'];
+                            while($row = mysqli_fetch_assoc($query_run))
+                            {
+                                $main_author = $row['main_author'];
+                                $other_author = $row['other_author'];
+                                $editors = $row['editors'];
+                                $title = $row['title'];
+                                $edition = $row['edition'];
+                                $tmaterial = $row['tmaterial'];
+                                $publication = $row['publication'];
+                                $publisher = $row['publisher'];
+                                $pages = $row['pages'];
+                                $mainpages = $row['mainpages'];
+                                $illustration = $row['illustration'];
+                                $length = $row['length'];
+                                $note = $row['note'];
+                                $series = $row['series'];
+                                $isbn = $row['isbn'];
+                                $hbk = $row['hbk'];
+                                $price = $row['price'];
+                                $callno = $row['callno'];
+                                $accessno = $row['accessno'];
+                                $subject_entry = $row['subject_entry'];
+                                $cataloger = $row['cataloger'];
+                                $bookname = $row['bookname'];
+                                ?>
+                                <tr>
+                                    <td><?php echo $sn++; ?></td>
+                                    <td><?php echo $main_author; ?></td>
+                                    <td><?php echo $other_author; ?></td>
+                                    <td><?php echo $editors; ?></td>
+                                    <td><?php echo $title; ?></td>
+                                    <td><?php echo $edition; ?></td>
+                                    <td><?php echo $tmaterial; ?></td>
+                                    <td><?php echo $publication; ?></td>
+                                    <td><?php echo $publisher; ?></td>
+                                    <td><?php echo $pages; ?></td>
+                                    <td><?php echo $mainpages; ?></td>
+                                    <td><?php echo $illustration; ?></td>
+                                    <td><?php echo $length; ?></td>
+                                    <td><?php echo $note; ?></td>
+                                    <td><?php echo $series; ?></td>
+                                    <td><?php echo $isbn; ?></td>
+                                    <td><?php echo $hbk; ?></td>
+                                    <td><?php echo $price; ?></td>
+                                    <td><?php echo $callno; ?></td>
+                                    <td><?php echo $accessno; ?></td>
+                                    <td><?php echo $subject_entry; ?></td>
+                                    <td><?php echo $cataloger; ?></td>
+                                    <td><?php echo $bookname; ?></td>
+                                </tr>
+                                <?php
+                            }
+                        }
+                        else
+                        {
                             ?>
                             <tr>
-                                <td><?php echo $sn++; ?></td>
-                                <td><?php echo $main_author; ?></td>
-                                <td><?php echo $other_author; ?></td>
-                                <td><?php echo $editors; ?></td>
-                                <td><?php echo $title; ?></td>
-                                <td><?php echo $edition; ?></td>
-                                <td><?php echo $tmaterial; ?></td>
-                                <td><?php echo $publication; ?></td>
-                                <td><?php echo $publisher; ?></td>
-                                <td><?php echo $pages; ?></td>
-                                <td><?php echo $mainpages; ?></td>
-                                <td><?php echo $illustration; ?></td>
-                                <td><?php echo $length; ?></td>
-                                <td><?php echo $note; ?></td>
-                                <td><?php echo $series; ?></td>
-                                <td><?php echo $isbn; ?></td>
-                                <td><?php echo $hbk; ?></td>
-                                <td><?php echo $price; ?></td>
-                                <td><?php echo $callno; ?></td>
-                                <td><?php echo $accessno; ?></td>
-                                <td><?php echo $subject_entry; ?></td>
-                                <td><?php echo $cataloger; ?></td>
-                                <td><?php echo $bookname; ?></td>
+                                <td colspan="22"><span class="text-danger">Books not yet Added</span></td>
                             </tr>
                             <?php
                         }
-                    }
-                    else
-                    {
-                        ?>
-                        <tr>
-                            <td colspan="22"><span class="text-danger">Books not yet Added</span></td>
-                        </tr>
-                        <?php
-                    }
                     ?>
                 </tbody>
             </table>
