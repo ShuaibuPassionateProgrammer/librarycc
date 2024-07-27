@@ -290,7 +290,9 @@ else {
                     ?>
                 </tbody>
             </table>
-            <table align="right"></table>
+            <table align="right">
+                <tr></tr>
+            </table>
         </div>
     </div>
 </div>
