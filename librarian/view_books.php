@@ -78,6 +78,7 @@ else {
                                             <th>Other Authors</th>
                                             <th>Editor(s)</th>
                                             <th>Title</th>
+                                            <th>Edition</th>
                                         </tr>
                                     </thead>
                                 </table>
