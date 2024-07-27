@@ -33,7 +33,9 @@ else {
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header text-center"></div>
+                <div class="card-header text-center">
+                    <h3>Book Classifications</h3>
+                </div>
             </div>
         </div>
     </div>
