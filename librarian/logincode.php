@@ -6,7 +6,6 @@ if(isset($_POST['login']))
 {
     $username = mysqli_real_escape_string($conn, $_POST['username']);
     $password = mysqli_real_escape_string($conn, $_POST['password']);
-
     $password = sha1($password);
 
     $query = "SELECT * FROM librarian WHERE username='$username' AND password='$password' LIMIT 1";
@@ -33,10 +32,19 @@ if(isset($_POST['login']))
         header("location: librarian_dashboard.php");
         exit(0);
     }
-    else {
+    else
+    {
         $_SESSION["response"] = "Invalid Username or Password";
         $_SESSION["res_type"] = "danger";
         header("location: ../librarian");
         exit(0);
     }
 }
+// else
+// {
+//     $_SESSION["response"] = "Access denied!";
+//     $_SESSION["res_type"] = "warning";
+//     header("location: ../librarian");
+//     exit(0);
+// }
+?>
