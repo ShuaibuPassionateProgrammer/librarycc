@@ -208,6 +208,7 @@ else {
                         <th>Length</th>
                         <th>Note</th>
                         <th>Series</th>
+                        <th>ISBN/ISSN</th>
                     </tr>
                 </thead>
             </table>
