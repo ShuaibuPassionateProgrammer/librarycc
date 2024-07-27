@@ -209,6 +209,7 @@ else {
                         <th>Note</th>
                         <th>Series</th>
                         <th>ISBN/ISSN</th>
+                        <th>Hbk/Pbk</th>
                     </tr>
                 </thead>
             </table>
