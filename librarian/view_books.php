@@ -135,6 +135,7 @@ else {
                                                     <td><?php echo $title; ?></td>
                                                     <td><?php echo $edition; ?></td>
                                                     <td><?php echo $tmaterial; ?></td>
+                                                    <td><?php echo $publication; ?></td>
                                                 </tr>
                                                 <?php
                                             }
