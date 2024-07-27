@@ -273,6 +273,7 @@ else {
                                 <td><?php echo $callno; ?></td>
                                 <td><?php echo $accessno; ?></td>
                                 <td><?php echo $subject_entry; ?></td>
+                                <td><?php echo $cataloger; ?></td>
                             </tr>
                             <?php
                         }
