@@ -138,6 +138,7 @@ else {
                                                     <td><?php echo $publication; ?></td>
                                                     <td><?php echo $publisher; ?></td>
                                                     <td><?php echo $pages; ?></td>
+                                                    <td><?php echo $mainpages; ?></td>
                                                 </tr>
                                                 <?php
                                             }
