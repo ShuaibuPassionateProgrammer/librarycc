@@ -141,6 +141,7 @@ else {
                                                     <td><?php echo $mainpages; ?></td>
                                                     <td><?php echo $illustration; ?></td>
                                                     <td><?php echo $length; ?></td>
+                                                    <td><?php echo $note; ?></td>
                                                 </tr>
                                                 <?php
                                             }
