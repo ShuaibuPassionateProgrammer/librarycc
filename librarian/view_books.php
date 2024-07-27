@@ -274,6 +274,7 @@ else {
                                 <td><?php echo $accessno; ?></td>
                                 <td><?php echo $subject_entry; ?></td>
                                 <td><?php echo $cataloger; ?></td>
+                                <td><?php echo $bookname; ?></td>
                             </tr>
                             <?php
                         }
