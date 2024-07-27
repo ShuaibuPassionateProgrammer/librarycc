@@ -280,13 +280,13 @@ else {
                         }
                     }
                     else
-                        {
-                            ?>
-                            <tr>
-                                <td colspan="22"><span class="text-danger">Books not yet Added</span></td>
-                            </tr>
-                            <?php
-                        }
+                    {
+                        ?>
+                        <tr>
+                            <td colspan="22"><span class="text-danger">Books not yet Added</span></td>
+                        </tr>
+                        <?php
+                    }
                     ?>
                 </tbody>
             </table>
