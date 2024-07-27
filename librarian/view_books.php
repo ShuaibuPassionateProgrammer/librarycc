@@ -271,6 +271,7 @@ else {
                                 <td><?php echo $hbk; ?></td>
                                 <td><?php echo $price; ?></td>
                                 <td><?php echo $callno; ?></td>
+                                <td><?php echo $accessno; ?></td>
                             </tr>
                             <?php
                         }
