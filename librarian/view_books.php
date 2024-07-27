@@ -106,6 +106,7 @@ else {
                                         if(mysqli_num_rows($query_run) > 0) {
                                             while($row = mysqli_fetch_assoc($query_run)) {
                                                 $main_author = $row['main_author'];
+                                                $other_author = $row['other_author'];
                                             }
                                         }
                                         ?>
