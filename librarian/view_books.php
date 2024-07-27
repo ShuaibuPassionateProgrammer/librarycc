@@ -146,6 +146,7 @@ else {
                                                     <td><?php echo $isbn; ?></td>
                                                     <td><?php echo $hbk; ?></td>
                                                     <td><?php echo $price; ?></td>
+                                                    <td><?php echo $callno; ?></td>
                                                 </tr>
                                                 <?php
                                             }
