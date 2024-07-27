@@ -229,6 +229,7 @@ else {
                         while($row = mysqli_fetch_assoc($query_run))
                         {
                             $main_author = $row['main_author'];
+                            $other_author = $row['other_author'];
                         }
                     }
                     ?>
