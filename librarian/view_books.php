@@ -258,6 +258,7 @@ else {
                                 <td><?php echo $editors; ?></td>
                                 <td><?php echo $title; ?></td>
                                 <td><?php echo $edition; ?></td>
+                                <td><?php echo $tmaterial; ?></td>
                             </tr>
                             <?php
                         }
