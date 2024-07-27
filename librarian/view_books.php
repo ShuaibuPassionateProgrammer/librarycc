@@ -192,7 +192,9 @@ else {
                     <tr>
                         <th colspan="22" class="text-center"><h3>Available Books</h3></th>
                     </tr>
-                    <tr></tr>
+                    <tr>
+                        <th>ID</th>
+                    </tr>
                 </thead>
             </table>
         </div>
