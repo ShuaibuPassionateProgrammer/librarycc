@@ -94,6 +94,7 @@ else {
                                              <th>Call No</th>
                                              <th>Accession No</th>
                                              <th>Subject Added Entries</th>
+                                             <th>Catalogued by</th>
                                         </tr>
                                     </thead>
                                 </table>
