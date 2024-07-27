@@ -246,6 +246,7 @@ else {
                             $hbk = $row['hbk'];
                             $price = $row['price'];
                             $callno = $row['callno'];
+                            $accessno = $row['accessno'];
                         }
                     }
                     ?>
