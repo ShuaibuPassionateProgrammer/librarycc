@@ -121,6 +121,7 @@ else {
                                                 $series = $row['series'];
                                                 $isbn = $row['isbn'];
                                                 $hbk = $row['hbk'];
+                                                $price = $row['price'];
                                             }
                                         }
                                         ?>
