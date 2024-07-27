@@ -81,6 +81,7 @@ else {
                                             <th>Edition</th>
                                             <th>Type of Material</th>
                                             <th>Place of Publication</th>
+                                            <th>Publisher</th>
                                         </tr>
                                     </thead>
                                 </table>
