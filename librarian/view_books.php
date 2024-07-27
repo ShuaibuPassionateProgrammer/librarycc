@@ -100,6 +100,7 @@ else {
                                     <tbody>
                                         <?php
                                         $query = "SELECT * FROM book";
+                                        $query_run = mysqli_query($conn, $query);
                                         ?>
                                     </tbody>
                                 </table>
