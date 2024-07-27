@@ -197,6 +197,7 @@ else {
                         <th>Name of Main Author</th>
                         <th>Other Authors</th>
                         <th>Editor(s)</th>
+                        <th>Title</th>
                     </tr>
                 </thead>
             </table>
