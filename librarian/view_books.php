@@ -204,6 +204,7 @@ else {
                         <th>Publisher</th>
                         <th>No. of Preliminary Pages</th>
                         <th>No. of Main Pages</th>
+                        <th>Illustrations</th>
                     </tr>
                 </thead>
             </table>
