@@ -266,6 +266,7 @@ else {
                                 <td><?php echo $illustration; ?></td>
                                 <td><?php echo $length; ?></td>
                                 <td><?php echo $note; ?></td>
+                                <td><?php echo $series; ?></td>
                             </tr>
                             <?php
                         }
