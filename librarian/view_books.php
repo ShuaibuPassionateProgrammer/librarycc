@@ -242,6 +242,7 @@ else {
                             $length = $row['length'];
                             $note = $row['note'];
                             $series = $row['series'];
+                            $isbn = $row['isbn'];
                         }
                     }
                     ?>
