@@ -252,7 +252,7 @@ else {
                             $bookname = $row['bookname'];
                             ?>
                             <tr>
-                                
+                                <td><?php echo $sn++; ?></td>
                             </tr>
                             <?php
                         }
