@@ -97,6 +97,7 @@ else {
                                              <th>Catalogued by</th>
                                         </tr>
                                     </thead>
+                                    <tbody></tbody>
                                 </table>
                             </div>
                         </div>
