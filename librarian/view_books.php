@@ -235,6 +235,7 @@ else {
                             $edition = $row['edition'];
                             $tmaterial = $row['tmaterial'];
                             $publication = $row['publication'];
+                            $publisher = $row['publisher'];
                         }
                     }
                     ?>
