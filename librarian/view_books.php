@@ -82,6 +82,7 @@ else {
                                             <th>Type of Material</th>
                                             <th>Place of Publication</th>
                                             <th>Publisher</th>
+                                            <th>No. of Preliminary Pages</th>
                                         </tr>
                                     </thead>
                                 </table>
