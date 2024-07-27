@@ -210,6 +210,7 @@ else {
                         <th>Series</th>
                         <th>ISBN/ISSN</th>
                         <th>Hbk/Pbk</th>
+                        <th>Price</th>
                     </tr>
                 </thead>
             </table>
