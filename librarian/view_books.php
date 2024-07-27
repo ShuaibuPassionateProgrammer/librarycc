@@ -124,6 +124,7 @@ else {
                                                 $price = $row['price'];
                                                 $callno = $row['callno'];
                                                 $accessno = $row['accessno'];
+                                                $subject_entry = $row['subject_entry'];
                                             }
                                         }
                                         ?>
