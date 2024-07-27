@@ -56,7 +56,9 @@ else {
         <div class="col-md-12">
             <?php
             if(isset($_POST['btn_search']))
-            {}
+            {
+                $class_cat = mysqli_real_escape_string($conn, $_POST['class_cat']);
+            }
             ?>
         </div>
     </div>
