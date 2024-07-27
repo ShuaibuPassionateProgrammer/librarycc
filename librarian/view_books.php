@@ -116,6 +116,7 @@ else {
                                                 $pages = $row['pages'];
                                                 $mainpages = $row['mainpages'];
                                                 $illustration = $row['illustration'];
+                                                $length = $row['length'];
                                             }
                                         }
                                         ?>
