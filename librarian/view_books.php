@@ -113,6 +113,7 @@ else {
                                                 $tmaterial = $row['tmaterial'];
                                                 $publication = $row['publication'];
                                                 $publisher = $row['publisher'];
+                                                $pages = $row['pages'];
                                             }
                                         }
                                         ?>
