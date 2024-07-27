@@ -11,3 +11,4 @@ if(isset($_SESSION['response']))
     <?php
     unset($_SESSION['response']);
 }
+?>
