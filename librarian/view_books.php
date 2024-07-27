@@ -65,7 +65,9 @@ else {
                 {
                     ?>
                     <div class="container-fluid p-2">
-                        <div class="row justify-content-center"></div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-12"></div>
+                        </div>
                     </div>
                     <?php
                 }
