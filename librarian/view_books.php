@@ -69,7 +69,9 @@ else {
                             <div class="col-md-12">
                                 <table class="table table-bordered table-responsive">
                                     <thead>
-                                        <tr></tr>
+                                        <tr>
+                                            <th colspan="22" class="text-center"><h3>List of Available Books</h3></th>
+                                        </tr>
                                     </thead>
                                 </table>
                             </div>
