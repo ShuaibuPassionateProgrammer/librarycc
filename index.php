@@ -26,7 +26,9 @@
                         <img src="images/img_4045.png" alt="Librarian" class="img-fluid mb-3 rounded-circle shadow" style="width: 120px; height: 120px; object-fit: cover;">
                         <h5 class="mt-3">Librarian</h5>
                     </div>
-                    <div class="card-footer bg-transparent border-0"></div>
+                    <div class="card-footer bg-transparent border-0">
+                        <button class="btn btn-outline-primary w-75">Enter</button>
+                    </div>
                 </div>
             </a>
         </div>
