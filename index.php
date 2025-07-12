@@ -21,7 +21,9 @@
         <!-- Librarian Card -->
         <div class="col-md-4 col-sm-6">
             <a href="librarian/" class="text-decoration-none">
-                <div class="card shadow-sm hover-shadow transition rounded text-center h-100"></div>
+                <div class="card shadow-sm hover-shadow transition rounded text-center h-100">
+                    <div class="card-body"></div>
+                </div>
             </a>
         </div>
     </div>
