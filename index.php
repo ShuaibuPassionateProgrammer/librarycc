@@ -19,6 +19,8 @@
         </div>
 
         <!-- Librarian Card -->
-        <div class="col-md-4 col-sm-6"></div>
+        <div class="col-md-4 col-sm-6">
+            <a href="librarian/" class="text-decoration-none"></a>
+        </div>
     </div>
 </div>
