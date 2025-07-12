@@ -1,38 +1,33 @@
 <?php include("includes/header.php"); ?>
-<div class="container d-flex align-items-center justify-content-center" style="min-height: 80vh;">
-    <div class="row g-5 justify-content-center">
-        <!-- Member Card -->
-        <div class="col-md-4 col-sm-6">
-            <a href="member/" class="text-decoration-none">
-                <div class="card shadow-sm hover-shadow transition rounded text-center h-100">
-                    <div class="card-body">
-                        
-                    <img src="images/img_4044.jpg" alt="Member" class="img-fluid mb-3 rounded-circle shadow" style="width: 120px; height: 120px; object-fit: cover;">
-                        <h5 class="mt-3">Member</h5>
+<?php include("includes/navbar.php"); ?>
 
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <a href="member/">
+                    <div class="card rounded">
+                        <div class="card-body text-center">
+                            <img src="images/img_4044.jpg" alt="" class="logo p-2" style="box-shadow: 0 1px 5px rgba(2,2,2,.2); border-radius: 200px">
+                        </div>
+                        <div class="card-body text-center">
+                            <button class="btn btn-outline-primary rounded librarian w-50">Member</button>
+                        </div>
                     </div>
-                    <div class="card-footer bg-transparent border-0">
-                        <button class="btn btn-outline-primary w-75">Enter</button>
-                    </div>
-                </div>
-            </a>
-        </div>
+                </a>
+            </div>
 
-        <!-- Librarian Card -->
-        <div class="col-md-4 col-sm-6">
-            <a href="librarian/" class="text-decoration-none">
-                <div class="card shadow-sm hover-shadow transition rounded text-center h-100">
-                    <div class="card-body">
-                        <img src="images/img_4045.png" alt="Librarian" class="img-fluid mb-3 rounded-circle shadow" style="width: 120px; height: 120px; object-fit: cover;">
-                        <h5 class="mt-3">Librarian</h5>
+            <div class="col-md-4">
+                <a href="librarian/">
+                    <div class="card rounded">
+                        <div class="card-body text-center">
+                            <img src="images/img_4045.png" alt="" class="logo p-2" style="box-shadow: 0 1px 5px rgba(2,2,2,.2); border-radius: 200px">
+                        </div>
+                        <div class="card-body text-center">
+                            <button class="btn btn-outline-primary rounded librarian w-50">Librarian</button>
+                        </div>
                     </div>
-                    <div class="card-footer bg-transparent border-0">
-                        <button class="btn btn-outline-primary w-75">Enter</button>
-                    </div>
-                </div>
-            </a>
+                </a>
+            </div>
         </div>
     </div>
-</div>
-
 <?php include("includes/footer.php"); ?>
