@@ -9,6 +9,7 @@
                         <img src="images/img_4044.jpg" alt="Member" class="img-fluid mb-3 rounded-circle shadow" style="width: 120px; height: 120px; object-fit: cover;">
                         <h5 class="mt-3">Member</h5>
                     </div>
+                    <div class="card-footer bg-transparent border-0"></div>
                 </div>
             </a>
         </div>
