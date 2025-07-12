@@ -6,10 +6,14 @@
             <a href="member/" class="text-decoration-none">
                 <div class="card shadow-sm hover-shadow transition rounded text-center h-100">
                     <div class="card-body">
-                        <img src="images/img_4044.jpg" alt="Member" class="img-fluid mb-3 rounded-circle shadow" style="width: 120px; height: 120px; object-fit: cover;">
+                        
+                    <img src="images/img_4044.jpg" alt="Member" class="img-fluid mb-3 rounded-circle shadow" style="width: 120px; height: 120px; object-fit: cover;">
                         <h5 class="mt-3">Member</h5>
+
                     </div>
-                    <div class="card-footer bg-transparent border-0"></div>
+                    <div class="card-footer bg-transparent border-0">
+                        <button class="btn btn-outline-primary w-75">Enter</button>
+                    </div>
                 </div>
             </a>
         </div>
