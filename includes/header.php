@@ -12,6 +12,9 @@
         .rounded {
             border-radius: 20px !important;
         }
+        .transition {
+            transition: transform 0.2s ease-in-out;
+        }
     </style>
 </head>
 <body>
