@@ -31,21 +31,22 @@ include "includes/header.php";
     </div>
 </div>
 
-<div class="container-fluid p-2">
-    <div class="row justify-content-center">
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-header text-center">
-                    <h3>Book Classifications</h3>
-                </div>
-                <div class="card-body text-right">
-                    <form method="post">
-                        <table>
-                            <tbody>
-                                <td><input type="text" name="class_cat" class="form-control w-100" placeholder="Enter the Book Class Category to Locate a it"></td>
-                                <td><input type="submit" name="btn_search" value="Search" class="btn btn-outline-success "></td>
-                            </tbody>
-                        </table>
+<div class="container py-5">
+    <div class="row justify-content-center mb-4">
+        <div class="col-lg-10 col-12">
+            <div class="text-center mb-4">
+                <h2 class="fw-bold mb-2">Book Classifications</h2>
+                <p class="lead text-secondary">Search for books by class category or browse the full catalog below.</p>
+            </div>
+            <div class="card shadow border-0 mb-4">
+                <div class="card-body">
+                    <form method="post" class="row g-2 justify-content-center align-items-center">
+                        <div class="col-md-8 col-12">
+                            <div class="input-group">
+                                <input type="text" name="class_cat" class="form-control form-control-lg" placeholder="Enter Book Class Category" aria-label="Book Class Category">
+                                <button type="submit" name="btn_search" class="btn btn-success btn-lg px-4">Search</button>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
