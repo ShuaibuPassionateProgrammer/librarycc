@@ -1,30 +1,18 @@
-<?php include("includes/header.php"); ?>
-
 <?php
-    session_start();
-
-    if(!isset($_SESSION['auth']))
-    {
-        $_SESSION['response'] = "Access denied! Login to access the dashboard.";
-        $_SESSION['res_type'] = "warning";
-        header("location: ../librarian");
-        exit(0);
-    }
-    else
-    {
-        if(isset($_SESSION['auth']['auth_librarian']))
-        {
-            echo "Hey! ".$_SESSION['auth_librarian']['librarian_username']." You are welcome to Librarian Dashboard";
-            unset($_SESSION['auth_librarian']['librarian_username']);
-        }
-        
-    }
+include "../includes/auth_check.php";
+include "../includes/header.php";
+include "../includes/navbar.php";
 ?>
 
 <div class="container p-2 mt-5">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <?php include("message.php"); ?>
+            <?php
+            if (isset($_SESSION['auth_librarian']['librarian_username'])) {
+                echo '<div class="alert alert-success">Hey! ' . htmlspecialchars($_SESSION['auth_librarian']['librarian_username']) . ' - You are welcome to the Librarian Dashboard.</div>';
+            }
+            ?>
         </div>
     </div>
 </div>
