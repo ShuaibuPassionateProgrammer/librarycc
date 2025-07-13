@@ -72,37 +72,40 @@ include "includes/header.php";
                     <div class="container-fluid p-2">
                         <div class="row justify-content-center">
                             <div class="col-md-12">
-                                <table class="table table-bordered table-responsive">
-                                    <thead>
-                                        <tr>
-                                            <th colspan="22" class="text-center"><h3>List of Available Books</h3></th>
-                                        </tr>
-                                        <tr>
-                                            <th>ID</th>
-                                            <th>Name of Main Author</th>
-                                            <th>Other Authors</th>
-                                            <th>Editor(s)</th>
-                                            <th>Title</th>
-                                            <th>Edition</th>
-                                            <th>Type of Material</th>
-                                            <th>Place of Publication</th>
-                                            <th>Publisher</th>
-                                            <th>No. of Preliminary Pages</th>
-                                            <th>No. of Main Pages</th>
-                                            <th>Illustrations</th>
-                                            <th>Length</th>
-                                            <th>Note</th>
-                                            <th>Series</th>
-                                            <th>ISBN/ISSN</th>
-                                            <th>Hbk/Pbk</th>
-                                            <th>Price</th>
-                                            <th>Call No</th>
-                                            <th>Accession No</th>
-                                            <th>Subject Added Entries</th>
-                                            <th>Catalogued by</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
+                                <div class="card shadow border-0 mb-4">
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-striped table-hover align-middle mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th colspan="22" class="text-center"><h4 class="mb-0">List of Available Books</h4></th>
+                    </tr>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name of Main Author</th>
+                        <th>Other Authors</th>
+                        <th>Editor(s)</th>
+                        <th>Title</th>
+                        <th>Edition</th>
+                        <th>Type of Material</th>
+                        <th>Place of Publication</th>
+                        <th>Publisher</th>
+                        <th>No. of Preliminary Pages</th>
+                        <th>No. of Main Pages</th>
+                        <th>Illustrations</th>
+                        <th>Length</th>
+                        <th>Note</th>
+                        <th>Series</th>
+                        <th>ISBN/ISSN</th>
+                        <th>Hbk/Pbk</th>
+                        <th>Price</th>
+                        <th>Call No</th>
+                        <th>Accession No</th>
+                        <th>Subject Added Entries</th>
+                        <th>Catalogued by</th>
+                    </tr>
+                </thead>
+                <tbody>
                                         <?php
                                             $query = "SELECT * FROM book";
                                             $query_run = mysqli_query($conn, $query);
@@ -165,8 +168,10 @@ include "includes/header.php";
                                             {
                                                 ?>
                                                 <tr>
-                                                    <td colspan="22"><span class="text-danger">Books not yet Added</span></td>
-                                                </tr>
+    <td colspan="22">
+        <div class="alert alert-warning text-center mb-0">No books have been added yet.</div>
+    </td>
+</tr>
                                                 <?php
                                             }
                                         ?>
