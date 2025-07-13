@@ -2,58 +2,55 @@
 session_start();
 include "../config/db_con.php";
 
-if(isset($_POST['register']))
-{
-    $firstname = mysqli_real_escape_string($conn, $_POST['firstname']);
-    $lastname = mysqli_real_escape_string($conn, $_POST['lastname']);
-    $username = mysqli_real_escape_string($conn, $_POST['username']);
-    $email = mysqli_real_escape_string($conn, $_POST['email']);
-    $password = mysqli_real_escape_string($conn, $_POST['password']);
-    $cpassword = mysqli_real_escape_string($conn, $_POST['cpassword']);
-    $password = sha1($password);
-    $cpassword = sha1($cpassword);
+if(isset($_POST['register'])) {
+    $firstname = trim($_POST['firstname']);
+    $lastname = trim($_POST['lastname']);
+    $username = trim($_POST['username']);
+    $email = trim($_POST['email']);
+    $password = $_POST['password'];
+    $cpassword = $_POST['cpassword'];
 
-    /*$username_check = "SELECT username FROM member WHERE username='$username'";
-    $username_check_run = mysqli_query($conn, $username_check);
-
-    if($username_check_run)
-    {
-        $_SESSION['response'] = "Username is already taken";
+    // Check if passwords match
+    if($password !== $cpassword) {
+        $_SESSION['response'] = "Passwords do not match";
         $_SESSION['res_type'] = "danger";
         header("location: register.php");
-        return false;
+        exit(0);
     }
 
-    $email_check = "SELECT email FROM member WHERE email='$email'";
-    $email_check_run = mysqli_query($conn, $email_check);
-
-    if($email_check_run)
-    {
-        $_SESSION['response'] = "Email id is already taken";
+    // Check for existing username or email
+    $stmt = $conn->prepare("SELECT id FROM member WHERE username = ? OR email = ? LIMIT 1");
+    $stmt->bind_param("ss", $username, $email);
+    $stmt->execute();
+    $stmt->store_result();
+    if($stmt->num_rows > 0) {
+        $_SESSION['response'] = "Username or Email already exists";
         $_SESSION['res_type'] = "danger";
         header("location: register.php");
-        return false;
-    }*/
-
-    if($password == $cpassword)
-    {
-        $query = "INSERT INTO member(firstname, lastname, username, email, password)VALUES('$firstname','$lastname','$username','$email','$password')";
-        $query_run = mysqli_query($conn, $query);
-
-        if($query_run)
-        {
-            $_SESSION['response'] = "Registration is successful";
-            $_SESSION['res_type'] = "success";
-            header("location: ../member");
-        }
+        $stmt->close();
+        exit(0);
     }
-    else
-    {
-        $_SESSION['response'] = "Two Password does not match";
+    $stmt->close();
+
+    // Hash the password
+    $password_hash = password_hash($password, PASSWORD_DEFAULT);
+
+    // Insert new member with prepared statement
+    $stmt = $conn->prepare("INSERT INTO member (firstname, lastname, username, email, password) VALUES (?, ?, ?, ?, ?)");
+    $stmt->bind_param("sssss", $firstname, $lastname, $username, $email, $password_hash);
+    $result = $stmt->execute();
+    if($result) {
+        $_SESSION['response'] = "Registration is successful";
+        $_SESSION['res_type'] = "success";
+        header("location: ../member");
+        $stmt->close();
+        exit(0);
+    } else {
+        $_SESSION['response'] = "Registration failed. Please try again.";
         $_SESSION['res_type'] = "danger";
         header("location: register.php");
+        $stmt->close();
+        exit(0);
     }
-
-    
 }
 ?>
