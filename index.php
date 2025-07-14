@@ -25,7 +25,7 @@
             <a href="librarian/" class="text-decoration-none">
                 <div class="card shadow-lg border-0 rounded-4 h-100 transition hover-shadow">
                     <div class="card-body text-center">
-                        <img src="images/img_4045.png" alt="Librarian Login" class="img-fluid mb-3" style="width:120px;height:120px;object-fit:cover;box-shadow: 0 1px 5px rgba(2,2,2,.2); border-radius: 50%">
+                        <img src="images/img_4045.JPG" alt="Librarian Login" class="img-fluid mb-3" style="width:120px;height:120px;object-fit:cover;box-shadow: 0 1px 5px rgba(2,2,2,.2); border-radius: 50%">
                         <h5 class="card-title mb-3">Librarian Portal</h5>
                         <p class="card-text mb-4">Manage the library, catalog books, and assist members efficiently.</p>
                         <button class="btn btn-success btn-lg px-4 py-2 rounded-3 w-75" aria-label="Go to Librarian Portal">Go to Librarian</button>
