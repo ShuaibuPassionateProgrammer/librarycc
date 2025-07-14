@@ -63,24 +63,40 @@ if (isset($_POST['register'])) {
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     <?php endif; ?>
-                    <form method="POST" action="">
-                        <div class="form-group">
-                            <label for="username">Username</label>
-                            <input type="text" name="username" id="username" class="form-control" required>
+                    <form method="POST" action="" autocomplete="off">
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="username" name="username" placeholder="Username" required autofocus>
+                                    <label for="username">Username</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Email address" required>
+                                    <label for="email">Email address</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+                                    <label for="password">Password</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="password" class="form-control" id="cpassword" name="cpassword" placeholder="Confirm Password" required>
+                                    <label for="cpassword">Confirm Password</label>
+                                </div>
+                            </div>
+                            <div class="col-12 d-grid mb-3">
+                                <button type="submit" name="register" class="btn btn-success btn-lg rounded">Register</button>
+                            </div>
+                            <div class="col-12 text-center">
+                                <p class="mb-1">Already have an account? <a href="index.php">Login</a></p>
+                                <p><a href="/librarycc">Back to Homepage</a></p>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" name="email" id="email" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" name="password" id="password" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="cpassword">Confirm Password</label>
-                            <input type="password" name="cpassword" id="cpassword" class="form-control" required>
-                        </div>
-                        <button type="submit" name="register" class="btn btn-primary w-100">Register Librarian</button>
                     </form>
                 </div>
             </div>
