@@ -46,17 +46,21 @@ if (isset($_POST['register'])) {
 }
 ?>
 
-<div class="container mt-5">
+<div class="container py-5">
+    <div class="row justify-content-center mb-4">
+        <div class="col-lg-6 col-12 text-center">
+            <h2 class="fw-bold mb-2">Librarian Registration</h2>
+            <p class="lead text-secondary">Create a new librarian account to manage the library system securely.</p>
+        </div>
+    </div>
     <div class="row justify-content-center">
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-header bg-primary text-white text-center">
-                    <h4>Register New Librarian</h4>
-                </div>
-                <div class="card-body">
+        <div class="col-md-6 col-12">
+            <div class="card shadow border-0">
+                <div class="card-body p-4">
                     <?php if(isset($_SESSION['response'])): ?>
-                        <div class="alert alert-<?php echo $_SESSION['res_type']; ?>">
+                        <div class="alert alert-<?php echo $_SESSION['res_type']; ?> alert-dismissible fade show" role="alert">
                             <?php echo $_SESSION['response']; unset($_SESSION['response'], $_SESSION['res_type']); ?>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     <?php endif; ?>
                     <form method="POST" action="">
