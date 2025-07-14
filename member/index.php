@@ -6,7 +6,7 @@ include "includes/header.php";
 <div class="container py-5">
     <div class="row justify-content-center mb-4">
         <div class="col-lg-6 col-12 text-center">
-            <img src="images/img_4044.jpg" alt="Member Login" class="img-fluid mb-3" style="width:100px;height:100px;object-fit:cover;box-shadow: 0 1px 5px rgba(2,2,2,.2); border-radius: 50%">
+            <img src="images/img_4044.JPG" alt="Member Login" class="img-fluid mb-3" style="width:100px;height:100px;object-fit:cover;box-shadow: 0 1px 5px rgba(2,2,2,.2); border-radius: 50%">
             <h2 class="fw-bold mb-2">Member Login</h2>
             <p class="lead text-secondary">Sign in to access your library account.</p>
         </div>
