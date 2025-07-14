@@ -3,67 +3,71 @@ session_start();
 include "includes/header.php";
 ?>
 
-<div class="container p-2">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <?php include("message.php"); ?>
+<div class="container py-5">
+    <div class="row justify-content-center mb-4">
+        <div class="col-lg-6 col-12 text-center">
+            <h2 class="fw-bold mb-2">Member Registration</h2>
+            <p class="lead text-secondary">Create your account to access the library and borrow books online.</p>
         </div>
     </div>
-</div> 
-
-<div class="container p-2">
     <div class="row justify-content-center">
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-header text-center">
-                    <h3>Member Registration - Form</h3>
+        <div class="col-md-8 col-12">
+            <div class="card shadow border-0">
+                <div class="card-body p-4">
+                    <?php include("message.php"); ?>
+                    <form action="member-register-code.php" method="post" autocomplete="off">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="text" name="firstname" id="firstname" class="form-control" placeholder="First Name" required>
+                                    <label for="firstname">First Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Last Name" required>
+                                    <label for="lastname">Last Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="text" name="username" id="username" class="form-control" placeholder="Username" required>
+                                    <label for="username">Username</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" required>
+                                    <label for="email">Email Address</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="password" name="password" id="password" class="form-control" placeholder="Password" required>
+                                    <label for="password">Password</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input type="password" name="cpassword" id="cpassword" class="form-control" placeholder="Confirm Password" required>
+                                    <label for="cpassword">Confirm Password</label>
+                                </div>
+                            </div>
+                            <div class="col-12 d-grid">
+                                <button type="submit" name="register" class="btn btn-success btn-lg rounded">Register</button>
+                            </div>
+                            <div class="col-12 text-center mt-2">
+                                <p>Already have an account? <a href="index.php">Login</a></p>
+                                <p><a href="/librarycc">Back to Homepage</a></p>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container p-2">
-    <div class="row justify-content-center">
-        <div class="col-md-12">
-            <form action="member-register-code.php" method="post">
-                <fieldset class="border p-2">
-                    <legend class="float-none w-auto">Registering a member</legend>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <table class="table table-borderless">
-                                <tbody>
-                                    <tr>
-                                        <td>First Name</td>
-                                        <td><input type="text" name="firstname" class="form-control"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Last Name</td>
-                                        <td><input type="text" name="lastname" class="form-control"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Username</td>
-                                        <td><input type="text" name="username" class="form-control"></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="col-md-6">
-                            <table class="table table-borderless">
-                                <tbody>
-                                    <tr>
-                                        <td>Email Address</td>
-                                        <td><input type="text" name="email" class="form-control"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Password</td>
-                                        <td><input type="password" name="password" class="form-control"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Confirm Password</td>
-                                        <td><input type="password" name="cpassword" class="form-control"></td>
-                                    </tr>
-                                    <tr>
                                         <td colspan="2" class="text-right">
                                             <a href="../member" class="btn btn-outline-secondary">Back</a>
                                             <input type="submit" name="register" value="Register" class="btn btn-outline-primary">
